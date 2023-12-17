@@ -1,0 +1,6716 @@
+[
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fa5"
+    },
+    "name": "ટપુજી રીયલ",
+    "productId": "M-022",
+    "price": 250,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.860Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fab"
+    },
+    "name": "નાનુ ગોલ્ડન સિહાસન",
+    "productId": "M-019",
+    "price": 17500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fad"
+    },
+    "name": "બાલુડા સિહાસન",
+    "productId": "M-020",
+    "price": 7500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1faf"
+    },
+    "name": "મોટા વુડન સિહાસન",
+    "productId": "M-016",
+    "price": 15000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fa7"
+    },
+    "name": "ટપુજી સિહાસન",
+    "productId": "M-024",
+    "price": 1000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fb3"
+    },
+    "name": "3D હરિકૃષ્ણ મહારાજ",
+    "productId": "M-015",
+    "price": 1300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fb5"
+    },
+    "name": "કુંડળના મહારાજ",
+    "productId": "M-011",
+    "price": 1000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fb7"
+    },
+    "name": "ચરણાવિંદ",
+    "productId": "M-013",
+    "price": 1000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fa9"
+    },
+    "name": "નાના વુડન સિહાસન",
+    "productId": "M-017",
+    "price": 12500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fbb"
+    },
+    "name": "બેઠા બાલુડા",
+    "productId": "M-023",
+    "price": 650,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fbd"
+    },
+    "name": "બેઠા વર્ણી",
+    "productId": "M-009",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fbf"
+    },
+    "name": "માણકી",
+    "productId": "M-012",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fc1"
+    },
+    "name": "વડોદરાવાસી ઘનશ્યામ (આરસ)",
+    "productId": "M-014",
+    "price": 15000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fc3"
+    },
+    "name": "ઓરડા",
+    "productId": "V1-023",
+    "price": 1000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fb1"
+    },
+    "name": "મોટુ ગોલ્ડન સિહાસન",
+    "productId": "M-018",
+    "price": 20000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fc7"
+    },
+    "name": "કેડીયા વ્હાઈટ",
+    "productId": "V1-003",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.861Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fc9"
+    },
+    "name": "ગરમ",
+    "productId": "V1-006",
+    "price": 350,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fcd"
+    },
+    "name": "તિલક વાઘા",
+    "productId": "V1-027",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fcf"
+    },
+    "name": "ત્રિકમ",
+    "productId": "V1-026",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fd1"
+    },
+    "name": "ધોતીવાળા",
+    "productId": "V1-018",
+    "price": 500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fb9"
+    },
+    "name": "થ્રીડી વર્ણી",
+    "productId": "M-010",
+    "price": 1300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fd7"
+    },
+    "name": "પરમ",
+    "productId": "V1-022",
+    "price": 750,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fd9"
+    },
+    "name": "પીયુડા",
+    "productId": "V1-013",
+    "price": 750,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fdb"
+    },
+    "name": "પુનમ",
+    "productId": "V1-015",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fdd"
+    },
+    "name": "પેરોટ",
+    "productId": "V1-017",
+    "price": 900,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fc5"
+    },
+    "name": "કલર કેડીયા",
+    "productId": "V1-004",
+    "price": 650,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fe3"
+    },
+    "name": "બંડી ધોતી",
+    "productId": "V1-010",
+    "price": 350,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fe5"
+    },
+    "name": "બરમુડો",
+    "productId": "V1-012",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fe7"
+    },
+    "name": "મનોહર",
+    "productId": "V1-024",
+    "price": 650,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fe9"
+    },
+    "name": "મયુર",
+    "productId": "V1-016",
+    "price": 850,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fed"
+    },
+    "name": "રજવાડિ",
+    "productId": "V1-019",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fef"
+    },
+    "name": "લેંઘો-ઝભ્ભો",
+    "productId": "V1-009",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ff1"
+    },
+    "name": "વર્ણી",
+    "productId": "V1-014",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ff3"
+    },
+    "name": "વાલમ",
+    "productId": "V1-007",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fd3"
+    },
+    "name": "નવલ",
+    "productId": "V1-025",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ff7"
+    },
+    "name": "શેરવાની",
+    "productId": "V1-008",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ff9"
+    },
+    "name": "શ્રીજી",
+    "productId": "V1-005",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ffb"
+    },
+    "name": "સંતોના ડ્રેસ",
+    "productId": "V1-001",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ffd"
+    },
+    "name": "સખી",
+    "productId": "V1-028",
+    "price": 550,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fff"
+    },
+    "name": "સાદા ઘેરવાળા",
+    "productId": "V1-002",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2001"
+    },
+    "name": "સુંદર",
+    "productId": "V1-021",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fe1"
+    },
+    "name": "ફેન્સી ઘોતી-2",
+    "productId": "V1-020",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2005"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-003",
+    "price": 1500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2007"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-004",
+    "price": 1700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.862Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2009"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-005",
+    "price": 1900,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b200b"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-006",
+    "price": 2100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b200d"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-007",
+    "price": 2300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b200f"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-008",
+    "price": 2500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2011"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-009",
+    "price": 2700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2013"
+    },
+    "name": " 2 ઘેરવાળા",
+    "productId": "V2-010",
+    "price": 3000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2015"
+    },
+    "name": " 2 ઘેરવાળા",
+    "productId": "V2-011",
+    "price": 3200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2017"
+    },
+    "name": " 2 ઘેરવાળા",
+    "productId": "V2-012",
+    "price": 3400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2019"
+    },
+    "name": " 2 ઘેરવાળા",
+    "productId": "V2-001",
+    "price": 800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1ff5"
+    },
+    "name": "શયન",
+    "productId": "V1-011",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.669Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b201d"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-001",
+    "price": 1200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b201f"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-002",
+    "price": 1500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2021"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-003",
+    "price": 1800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2023"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-004",
+    "price": 2100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2025"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-005",
+    "price": 2400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2027"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-006",
+    "price": 2600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2029"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-007",
+    "price": 2800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b202b"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-008",
+    "price": 3000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b202d"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-009",
+    "price": 3200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2003"
+    },
+    "name": "2 ઘેરવાળા",
+    "productId": "V2-002",
+    "price": 1200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2031"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-011",
+    "price": 4000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2033"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-012",
+    "price": 4500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2035"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-013",
+    "price": 5000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2037"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-014",
+    "price": 5700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2039"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-015",
+    "price": 6500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b203b"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-016",
+    "price": 7000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b203d"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-017",
+    "price": 8000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b203f"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-018",
+    "price": 9000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2041"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1000",
+    "productId": "VB-006",
+    "price": 1000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2043"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1100",
+    "productId": "VB-007",
+    "price": 1100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2045"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1200",
+    "productId": "VB-008",
+    "price": 1200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2047"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1300",
+    "productId": "VB-009",
+    "price": 1300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b201b"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-019",
+    "price": 10000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b204b"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1600",
+    "productId": "VB-011",
+    "price": 1600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.863Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b204d"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1800",
+    "productId": "VB-012",
+    "price": 1800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b204f"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@2000",
+    "productId": "VB-013",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2051"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@400",
+    "productId": "VB-001",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2053"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@600",
+    "productId": "VB-002",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2055"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@700",
+    "productId": "VB-003",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2057"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@800",
+    "productId": "VB-004",
+    "price": 800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2059"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@900",
+    "productId": "VB-005",
+    "price": 900,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b205b"
+    },
+    "name": "નાના રાજા.@1500",
+    "productId": "VN-001",
+    "price": 1500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b205d"
+    },
+    "name": "નાના રાજા.@2000",
+    "productId": "VN-002",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b205f"
+    },
+    "name": "નાના રાજા.@2300",
+    "productId": "VN-003",
+    "price": 2300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b202f"
+    },
+    "name": "3 ઘેરવાળા",
+    "productId": "V3-010",
+    "price": 3600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.670Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2063"
+    },
+    "name": "નાના રાજા.@2800",
+    "productId": "VN-005",
+    "price": 2800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2065"
+    },
+    "name": "નાના રાજા.@3000",
+    "productId": "VN-006",
+    "price": 3000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2067"
+    },
+    "name": "નાના રાજા.@3300",
+    "productId": "VN-007",
+    "price": 3300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2069"
+    },
+    "name": "નાના રાજા.@3500",
+    "productId": "VN-008",
+    "price": 3500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b206b"
+    },
+    "name": "નાના રાજા.@3800",
+    "productId": "VN-009",
+    "price": 3800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b206d"
+    },
+    "name": "નાના રાજા.@4000",
+    "productId": "VN-010",
+    "price": 4000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b206f"
+    },
+    "name": "નાના રાજા.@4500",
+    "productId": "VN-011",
+    "price": 4500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2071"
+    },
+    "name": "નાના રાજા.@5000",
+    "productId": "VN-012",
+    "price": 5000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2073"
+    },
+    "name": "મોટા રાજા.@10000",
+    "productId": "VM-012",
+    "price": 10000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2075"
+    },
+    "name": "મોટા રાજા.@11000",
+    "productId": "VM-013",
+    "price": 11000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2077"
+    },
+    "name": "મોટા રાજા.@11500",
+    "productId": "VM-014",
+    "price": 11500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2079"
+    },
+    "name": "મોટા રાજા.@12000",
+    "productId": "VM-015",
+    "price": 12000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b207b"
+    },
+    "name": "મોટા રાજા.@13000",
+    "productId": "VM-016",
+    "price": 13000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b207d"
+    },
+    "name": "મોટા રાજા.@15000",
+    "productId": "VM-017",
+    "price": 15000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b207f"
+    },
+    "name": "મોટા રાજા.@16000",
+    "productId": "VM-018",
+    "price": 16000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2049"
+    },
+    "name": "બેઠા બાલુડાના વાઘા@1400",
+    "productId": "VB-010",
+    "price": 1400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2083"
+    },
+    "name": "મોટા રાજા.@20000",
+    "productId": "VM-020",
+    "price": 20000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2085"
+    },
+    "name": "મોટા રાજા.@4000",
+    "productId": "VM-001",
+    "price": 4000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2087"
+    },
+    "name": "મોટા રાજા.@5000",
+    "productId": "VM-002",
+    "price": 5000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2089"
+    },
+    "name": "મોટા રાજા.@5500",
+    "productId": "VM-003",
+    "price": 5500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b208b"
+    },
+    "name": "મોટા રાજા.@6000",
+    "productId": "VM-004",
+    "price": 6000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b208d"
+    },
+    "name": "મોટા રાજા.@6500",
+    "productId": "VM-005",
+    "price": 6500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b208f"
+    },
+    "name": "મોટા રાજા.@7000",
+    "productId": "VM-006",
+    "price": 7000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2091"
+    },
+    "name": "મોટા રાજા.@7500",
+    "productId": "VM-007",
+    "price": 7500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2093"
+    },
+    "name": "મોટા રાજા.@8000",
+    "productId": "VM-008",
+    "price": 8000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2095"
+    },
+    "name": "મોટા રાજા.@8500",
+    "productId": "VM-009",
+    "price": 8500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2097"
+    },
+    "name": "મોટા રાજા.@9000",
+    "productId": "VM-010",
+    "price": 9000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2061"
+    },
+    "name": "નાના રાજા.@2500",
+    "productId": "VN-004",
+    "price": 2500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.671Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f93"
+    },
+    "name": "રીયલ-1",
+    "productId": "M-001",
+    "price": 550,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.666Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b209b"
+    },
+    "name": "પીછવાઈ@1800",
+    "productId": "VP-001",
+    "price": 1800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b209d"
+    },
+    "name": "પીછવાઈ@2000",
+    "productId": "VP-002",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.864Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b209f"
+    },
+    "name": "પીછવાઈ@2500",
+    "productId": "VP-003",
+    "price": 2500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20a1"
+    },
+    "name": "પીછવાઈ@2750",
+    "productId": "VP-004",
+    "price": 2750,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f95"
+    },
+    "name": "વાઇટ-1",
+    "productId": "M-002",
+    "price": 550,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20a3"
+    },
+    "name": "પીછવાઈ@3000",
+    "productId": "VP-005",
+    "price": 3000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20a5"
+    },
+    "name": "પીછવાઈ@3250",
+    "productId": "VP-006",
+    "price": 3250,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20a7"
+    },
+    "name": "પીછવાઈ@3500",
+    "productId": "VP-007",
+    "price": 3500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20a9"
+    },
+    "name": "પીછવાઈ@3750",
+    "productId": "VP-008",
+    "price": 3750,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20ab"
+    },
+    "name": "પીછવાઈ@4000",
+    "productId": "VP-009",
+    "price": 4000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20ad"
+    },
+    "name": "ટપુજીના વાઘા@100",
+    "productId": "VT-001",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20af"
+    },
+    "name": "ટપુજીના વાઘા@125",
+    "productId": "VT-002",
+    "price": 125,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20b1"
+    },
+    "name": "ટપુજીના વાઘા@150",
+    "productId": "VT-003",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20b3"
+    },
+    "name": "ટપુજીના વાઘા@200",
+    "productId": "VT-004",
+    "price": 200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20b5"
+    },
+    "name": "ટપુજીના વાઘા@225",
+    "productId": "VT-005",
+    "price": 225,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20b7"
+    },
+    "name": "ટપુજીના વાઘા@250",
+    "productId": "VT-006",
+    "price": 250,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20b9"
+    },
+    "name": "ટપુજીના વાઘા@300",
+    "productId": "VT-007",
+    "price": 300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f97"
+    },
+    "name": "રીયલ-2",
+    "productId": "M-003",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20bb"
+    },
+    "name": "ટપુજીના વાઘા@325",
+    "productId": "VT-008",
+    "price": 325,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20bd"
+    },
+    "name": "ટપુજીના વાઘા@350",
+    "productId": "VT-009",
+    "price": 350,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20bf"
+    },
+    "name": "ટપુજીના વાઘા@400",
+    "productId": "VT-010",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2081"
+    },
+    "name": "મોટા રાજા.@18000",
+    "productId": "VM-019",
+    "price": 18000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.672Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f99"
+    },
+    "name": "વાઇટ-2",
+    "productId": "M-004",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20d7"
+    },
+    "name": "ટપુજીના વાઘા@450",
+    "productId": "VT-011",
+    "price": 450,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20c5"
+    },
+    "name": "ટપુજીના વાઘા@600",
+    "productId": "VT-013",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f9b"
+    },
+    "name": "રીયલ-3",
+    "productId": "M-005",
+    "price": 3200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f9d"
+    },
+    "name": "વાઇટ-3",
+    "productId": "M-006",
+    "price": 3200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1f9f"
+    },
+    "name": "નાના રાજાધિરાજ",
+    "productId": "M-007",
+    "price": 2500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fa1"
+    },
+    "name": "મોટા રાજાધિરાજ",
+    "productId": "M-008",
+    "price": 18000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b1fa3"
+    },
+    "name": "ટપુજી ગોલ્ડન",
+    "productId": "M-021",
+    "price": 250,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.668Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20db"
+    },
+    "name": "1 અભયચક્ર",
+    "productId": "G1-009",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20dd"
+    },
+    "name": "1 કડા",
+    "productId": "G1-001",
+    "price": 120,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20df"
+    },
+    "name": "1 કુંડળ",
+    "productId": "G1-008",
+    "price": 80,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20e1"
+    },
+    "name": "1 ચશ્માં",
+    "productId": "G1-007",
+    "price": 80,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20e3"
+    },
+    "name": "1 છડી ગોલ્ડન",
+    "productId": "G1-005",
+    "price": 120,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2099"
+    },
+    "name": "મોટા રાજા.@9500",
+    "productId": "VM-011",
+    "price": 9500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20e7"
+    },
+    "name": "1 તિલક",
+    "productId": "G1-010",
+    "price": 20,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20e9"
+    },
+    "name": "1 તોડા",
+    "productId": "G1-002",
+    "price": 130,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20eb"
+    },
+    "name": "1 પાયલ ડાયમંડ",
+    "productId": "G1-013",
+    "price": 70,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20ed"
+    },
+    "name": "1 પાયલ સાદા",
+    "productId": "G1-014",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20ef"
+    },
+    "name": "1 બુટ્ટી 15",
+    "productId": "G1-011",
+    "price": 15,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20f3"
+    },
+    "name": "1 બુટ્ટી 25",
+    "productId": "G1-012",
+    "price": 25,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.865Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20f7"
+    },
+    "name": "1 મુગટ ડાયમંડ",
+    "productId": "G1-015",
+    "price": 500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20f9"
+    },
+    "name": "1 મુગટ શ્યામ",
+    "productId": "G1-016",
+    "price": 120,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20fb"
+    },
+    "name": "1 મોજડી ગોલ્ડન",
+    "productId": "G1-003",
+    "price": 120,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20fd"
+    },
+    "name": "1 મોજડી વેલ્વેટ",
+    "productId": "G1-004",
+    "price": 130,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20ff"
+    },
+    "name": "1 સેટ@350",
+    "productId": "G1-026",
+    "price": 350,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2101"
+    },
+    "name": "1 સેટ@450",
+    "productId": "G1-027",
+    "price": 450,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2103"
+    },
+    "name": "1 સેટ@500",
+    "productId": "G1-028",
+    "price": 500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2105"
+    },
+    "name": "1 સેટ@550",
+    "productId": "G1-029",
+    "price": 550,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2107"
+    },
+    "name": "1 સેટ@600",
+    "productId": "G1-030",
+    "price": 600,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2109"
+    },
+    "name": "1 હારબુટ્ટી@100",
+    "productId": "G1-019",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b210b"
+    },
+    "name": "1 હારબુટ્ટી@130",
+    "productId": "G1-020",
+    "price": 130,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b210d"
+    },
+    "name": "1 હારબુટ્ટી@150",
+    "productId": "G1-021",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b210f"
+    },
+    "name": "1 હારબુટ્ટી@180",
+    "productId": "G1-022",
+    "price": 180,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2111"
+    },
+    "name": "1 હારબુટ્ટી@200",
+    "productId": "G1-023",
+    "price": 200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2113"
+    },
+    "name": "1 હારબુટ્ટી@230",
+    "productId": "G1-024",
+    "price": 230,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2115"
+    },
+    "name": "1 હારબુટ્ટી@260",
+    "productId": "G1-025",
+    "price": 260,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2119"
+    },
+    "name": "1 હારબુટ્ટી@50",
+    "productId": "G1-017",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.675Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b211d"
+    },
+    "name": "1 હારબુટ્ટી@80",
+    "productId": "G1-018",
+    "price": 80,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.675Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b211f"
+    },
+    "name": "2 કડા",
+    "productId": "G2-001",
+    "price": 140,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.675Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2121"
+    },
+    "name": "2 છડી",
+    "productId": "G2-004",
+    "price": 180,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.675Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20c3"
+    },
+    "name": "ટપુજીના વાઘા@500",
+    "productId": "VT-012",
+    "price": 500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.673Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2127"
+    },
+    "name": "3 મૂંગટ ડાયમંડ",
+    "productId": "G3-005",
+    "price": 900,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2129"
+    },
+    "name": "2 મોજડી",
+    "productId": "G2-003",
+    "price": 350,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b212b"
+    },
+    "name": "2 સેટ@300",
+    "productId": "G2-006",
+    "price": 300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b212d"
+    },
+    "name": "2 સેટ@400",
+    "productId": "G2-007",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b212f"
+    },
+    "name": "3 કડા",
+    "productId": "G3-001",
+    "price": 200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2131"
+    },
+    "name": "3 છડી",
+    "productId": "G3-004",
+    "price": 200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2133"
+    },
+    "name": "2 તોડા",
+    "productId": "G2-002",
+    "price": 180,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2137"
+    },
+    "name": "2 મૂંગટ ડાયમંડ",
+    "productId": "G2-005",
+    "price": 700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2139"
+    },
+    "name": "3 મોજડી",
+    "productId": "G3-003",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b213b"
+    },
+    "name": "3 સેટ@450",
+    "productId": "G3-006",
+    "price": 450,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b213d"
+    },
+    "name": "3 સેટ@550",
+    "productId": "G3-007",
+    "price": 550,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b213f"
+    },
+    "name": "નાના રાજા સેટ@750",
+    "productId": "GNR-001",
+    "price": 750,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2141"
+    },
+    "name": "નાના રાજા સેટ@900",
+    "productId": "GNR-002",
+    "price": 900,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2143"
+    },
+    "name": "રાધિ. સેટ@1000",
+    "productId": "GR-001",
+    "price": 1000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2145"
+    },
+    "name": "રાધિ. સેટ@1500",
+    "productId": "GR-002",
+    "price": 1500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2147"
+    },
+    "name": "રાધિ. સેટ@2000",
+    "productId": "GR-003",
+    "price": 2000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2149"
+    },
+    "name": "રાધિ. સેટ@2500",
+    "productId": "GR-004",
+    "price": 2500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.866Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b214b"
+    },
+    "name": "રાધિ. સેટ@2700",
+    "productId": "GR-005",
+    "price": 2700,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b214d"
+    },
+    "name": "રાધિ. સેટ@3000",
+    "productId": "GR-006",
+    "price": 3000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b214f"
+    },
+    "name": "રાધિ. સેટ@3500",
+    "productId": "GR-007",
+    "price": 3500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2151"
+    },
+    "name": "ટપુજીના ઘરેણા@100",
+    "productId": "GT-007",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2153"
+    },
+    "name": "ટપુજીના ઘરેણા@130",
+    "productId": "GT-008",
+    "price": 130,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2155"
+    },
+    "name": "ટપુજીના ઘરેણા@150",
+    "productId": "GT-009",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b20e5"
+    },
+    "name": "1 છડી ડાયમંડ",
+    "productId": "G1-006",
+    "price": 130,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.674Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2159"
+    },
+    "name": "ટપુજીના ઘરેણા@30",
+    "productId": "GT-002",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b215b"
+    },
+    "name": "ટપુજીના ઘરેણા@40",
+    "productId": "GT-003",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b215d"
+    },
+    "name": "ટપુજીના ઘરેણા@50",
+    "productId": "GT-004",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b215f"
+    },
+    "name": "ટપુજીના ઘરેણા@60",
+    "productId": "GT-005",
+    "price": 60,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2161"
+    },
+    "name": "ટપુજીના ઘરેણા@80",
+    "productId": "GT-006",
+    "price": 80,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2165"
+    },
+    "name": "વાત્સલ્યમ્રુતમ મરાઠી",
+    "productId": "B-088",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2167"
+    },
+    "name": "વાત્સલ્યમ્રુતમ હીન્દી",
+    "productId": "B-089",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2169"
+    },
+    "name": "વાલપના વેણ",
+    "productId": "B-087",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b216b"
+    },
+    "name": "વાલપના વેણ અંગ્રેજી",
+    "productId": "B-090",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b216d"
+    },
+    "name": "સ્પીરીચ્યુઅલ લીડરશીપ",
+    "productId": "B-091",
+    "price": 45,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b216f"
+    },
+    "name": "સ્વાસ્થ્ય સુધા",
+    "productId": "B-085",
+    "price": 140,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2171"
+    },
+    "name": "સ્વાસ્થ્ય સુધા હિન્દી",
+    "productId": "B-086",
+    "price": 140,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2173"
+    },
+    "name": "જમ્બો વચનામ્રુત",
+    "productId": "B-003",
+    "price": 125,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2175"
+    },
+    "name": "નાના વચનામ્રુત",
+    "productId": "B-001",
+    "price": 60,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2177"
+    },
+    "name": "મીડિયમ વચનામ્રુત",
+    "productId": "B-002",
+    "price": 80,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2179"
+    },
+    "name": "શિક્ષાપત્રી જમ્બો",
+    "productId": "B-004",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b217d"
+    },
+    "name": "શ્રી હ.ચ.સાગર 01",
+    "productId": "B-017",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b217f"
+    },
+    "name": "શ્રી હ.ચ.સાગર 02",
+    "productId": "B-018",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2181"
+    },
+    "name": "શ્રી હ.ચ.સાગર 03",
+    "productId": "B-019",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2183"
+    },
+    "name": "શ્રી હ.ચ.સાગર 04",
+    "productId": "B-020",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2185"
+    },
+    "name": "શ્રી હ.ચ.સાગર 05",
+    "productId": "B-021",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2187"
+    },
+    "name": "શ્રી હ.ચ.સાગર 06",
+    "productId": "B-022",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2189"
+    },
+    "name": "શ્રી હ.ચ.સાગર 07",
+    "productId": "B-023",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b218b"
+    },
+    "name": "શ્રી હ.ચ.સાગર 08",
+    "productId": "B-024",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b218d"
+    },
+    "name": "શ્રી હ.ચ.સાગર 09",
+    "productId": "B-025",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b218f"
+    },
+    "name": "શ્રી હ.ચ.સાગર 10",
+    "productId": "B-026",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2191"
+    },
+    "name": "શ્રી હ.ચ.સાગર 11",
+    "productId": "B-027",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2193"
+    },
+    "name": "શ્રી હ.ચ.સાગર 12",
+    "productId": "B-028",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.867Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2195"
+    },
+    "name": "શ્રી હ.ચ.સાગર સેટ ગુજરાતી",
+    "productId": "B-029",
+    "price": 1880,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2123"
+    },
+    "name": "3 તોડા",
+    "productId": "G3-002",
+    "price": 230,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.675Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2199"
+    },
+    "name": "શ્રી હ.ચ.સાગર સેટ હિન્દી",
+    "productId": "B-030",
+    "price": 1200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b219b"
+    },
+    "name": "નિત્યાનંદસ્વામીના ગ્રંથો",
+    "productId": "B-009",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b219d"
+    },
+    "name": "નિષ્કુળાનંદ કાવ્ય",
+    "productId": "B-006",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b219f"
+    },
+    "name": "પ્રેમાનંદસ્વામીના ગ્રંથો",
+    "productId": "B-010",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21a1"
+    },
+    "name": "ભક્તચિંતામણી",
+    "productId": "B-005",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21a3"
+    },
+    "name": "વિધાત્રાનંદસ્વામીના ગ્રંથો",
+    "productId": "B-011",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21a5"
+    },
+    "name": "વેદરસ",
+    "productId": "B-015",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21a7"
+    },
+    "name": "શાંતિપાઠ",
+    "productId": "B-016",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21a9"
+    },
+    "name": "શુકાનંદ સ્વામીના ગ્રંથો",
+    "productId": "B-012",
+    "price": 60,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21ab"
+    },
+    "name": "શ્રીમદ ગીતા ભાષ્ય",
+    "productId": "B-013",
+    "price": 70,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21ad"
+    },
+    "name": "શ્રીહરીકૃષ્ણસ્વરૂપભક્તિ નિર્ણય",
+    "productId": "B-014",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21af"
+    },
+    "name": "હરિલીલામૃત",
+    "productId": "B-007",
+    "price": 250,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21b1"
+    },
+    "name": "હરિસ્મૃતી",
+    "productId": "B-008",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21b3"
+    },
+    "name": "પુરૂષોતમ લીલા",
+    "productId": "B-034",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21b5"
+    },
+    "name": "મહારાજની લીલા",
+    "productId": "B-032",
+    "price": 75,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21b7"
+    },
+    "name": "લીલા ચરિત્રોની વાતો",
+    "productId": "B-036",
+    "price": 75,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21b9"
+    },
+    "name": "લીલા ચિંતામણી",
+    "productId": "B-037",
+    "price": 125,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21bb"
+    },
+    "name": "લોજપુર લીલા",
+    "productId": "B-033",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21bd"
+    },
+    "name": "શ્રીજીની લીલા",
+    "productId": "B-031",
+    "price": 35,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21bf"
+    },
+    "name": "શ્રીજી મહારાજના ચરિત્રો",
+    "productId": "B-035",
+    "price": 85,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21c1"
+    },
+    "name": "શ્રીસ્વા.વિ.લીલામ્રુત ઉત્ત્રરાર્ધ",
+    "productId": "B-039",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21c3"
+    },
+    "name": "શ્રીસ્વા.વિ. લીલામ્રુત પૂર્વાધ",
+    "productId": "B-040",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21c5"
+    },
+    "name": "શ્રી હ.ચ.ચિં - ગુમાનજી",
+    "productId": "B-042",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21c7"
+    },
+    "name": "શ્રીહરિકૃષ્ણ લીલામૃત",
+    "productId": "B-041",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21c9"
+    },
+    "name": "શ્રીહરિચરિત્ર ચિંતામણી - ૧",
+    "productId": "B-044",
+    "price": 135,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21cb"
+    },
+    "name": "શ્રીહરિચરિત્ર ચિંતામણી - ૨",
+    "productId": "B-045",
+    "price": 135,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2157"
+    },
+    "name": "ટપુજીના ઘરેણા@20",
+    "productId": "GT-001",
+    "price": 20,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.676Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21cf"
+    },
+    "name": "સ્વા.ચરિત્ર ચિંતામણી",
+    "productId": "B-038",
+    "price": 140,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21d1"
+    },
+    "name": "હરિલીલામૃત ગ્રંથ",
+    "productId": "B-043",
+    "price": 75,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21d3"
+    },
+    "name": "અક્ષરાનંદ સ્વામીની વાતો",
+    "productId": "B-052",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21d5"
+    },
+    "name": "અદભુતાનંદ સ્વામીની વાતો",
+    "productId": "B-049",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21d7"
+    },
+    "name": "ગુણાતીતાનંદ્સ્વામીની વાતો",
+    "productId": "B-047",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21d9"
+    },
+    "name": "ગોપાળાનંદસ્વામીની વાતો",
+    "productId": "B-048",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21db"
+    },
+    "name": "નિર્ગુણદાસજીસ્વામીની વાતો",
+    "productId": "B-050",
+    "price": 60,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21dd"
+    },
+    "name": "ભાયાત્માન્ંદ સ્વામીની વાતો",
+    "productId": "B-053",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21df"
+    },
+    "name": "મોનજીભગતની વાતો@30",
+    "productId": "B-051",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21e1"
+    },
+    "name": "આધારાનંદ કીર્તનાવલી",
+    "productId": "B-059",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21e3"
+    },
+    "name": "કીર્તન દીપાવલી",
+    "productId": "B-055",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21e5"
+    },
+    "name": "કીર્તનમાળા ભાગ 1",
+    "productId": "B-056",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21e7"
+    },
+    "name": "કીર્તનમાળા ભાગ 2",
+    "productId": "B-057",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21e9"
+    },
+    "name": "કીર્તનમાળા ભાગ 3",
+    "productId": "B-058",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21eb"
+    },
+    "name": "કીર્તનસાર",
+    "productId": "B-054",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21ed"
+    },
+    "name": "ભક્તાખ્યાન",
+    "productId": "B-060",
+    "price": 70,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21ef"
+    },
+    "name": "શ્રીસ્વા. સંત આખ્યાન",
+    "productId": "B-061",
+    "price": 100,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21f1"
+    },
+    "name": "સાગર સાર ભાગ 1",
+    "productId": "B-069",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21f3"
+    },
+    "name": "સાગર સાર ભાગ 10",
+    "productId": "B-078",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21f5"
+    },
+    "name": "સાગર સાર ભાગ 11",
+    "productId": "B-079",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.869Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21f7"
+    },
+    "name": "સાગર સાર ભાગ 12",
+    "productId": "B-080",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21f9"
+    },
+    "name": "સાગર સાર ભાગ 2",
+    "productId": "B-070",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21fb"
+    },
+    "name": "સાગર સાર ભાગ 3",
+    "productId": "B-071",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21fd"
+    },
+    "name": "સાગર સાર ભાગ 4",
+    "productId": "B-072",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21ff"
+    },
+    "name": "સાગર સાર ભાગ 5",
+    "productId": "B-073",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2201"
+    },
+    "name": "સાગર સાર ભાગ 6",
+    "productId": "B-074",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2203"
+    },
+    "name": "સાગર સાર ભાગ 7",
+    "productId": "B-075",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2205"
+    },
+    "name": "સાગર સાર ભાગ 8",
+    "productId": "B-076",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2207"
+    },
+    "name": "સાગર સાર ભાગ 9",
+    "productId": "B-077",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2209"
+    },
+    "name": "જ્ઞાનદીપ ભાગ 1",
+    "productId": "B-064",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b220b"
+    },
+    "name": "જ્ઞાનદીપ ભાગ 2",
+    "productId": "B-065",
+    "price": 15,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b220d"
+    },
+    "name": "જ્ઞાનદીપ ભાગ 3",
+    "productId": "B-066",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b220f"
+    },
+    "name": "જ્ઞાનદીપ ભાગ 4",
+    "productId": "B-067",
+    "price": 15,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2211"
+    },
+    "name": "જ્ઞાનદીપ ભાગ 5",
+    "productId": "B-068",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2197"
+    },
+    "name": "શ્રી હ.ચ.સાગર સેટ જમ્બો",
+    "productId": "B-092",
+    "price": 5000,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.677Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2215"
+    },
+    "name": "હરિરસામ્રુત",
+    "productId": "B-063",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b221b"
+    },
+    "name": "કથાસાર 1",
+    "productId": "B-082",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b221d"
+    },
+    "name": "કથાસાર 2",
+    "productId": "B-083",
+    "price": 25,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b221f"
+    },
+    "name": "કથાસાર 3",
+    "productId": "B-084",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2221"
+    },
+    "name": "મંત્રપોથી",
+    "productId": "B-081",
+    "price": 2,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2227"
+    },
+    "name": "પુજાપેટિ કંકુની ભુગળી",
+    "productId": "Pujapeti-Kankuni_Bhugali",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2229"
+    },
+    "name": "પુજાપેટિ કાગળ",
+    "productId": "Pujapeti-Kagal",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b222b"
+    },
+    "name": "પુજાપેટિ ગૌમુખી",
+    "productId": "Pujapeti-Gaumukhi",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b222d"
+    },
+    "name": "પુજાપેટિ ચંદનની ગોટિ",
+    "productId": "Pujapeti-Chandanni_Goti",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b222f"
+    },
+    "name": "પુજાપેટિ ચમસી",
+    "productId": "Pujapeti-Chamsi",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2231"
+    },
+    "name": "પુજાપેટિ ચરણાવિંદ",
+    "productId": "Pujapeti-Charnarvind",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2233"
+    },
+    "name": "પુજાપેટિ જમતી મુર્તિ",
+    "productId": "Pujapeti-Jamti_Murti",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2235"
+    },
+    "name": "પુજાપેટિ તિલકિયા",
+    "productId": "Pujapeti-Tilkiya",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2237"
+    },
+    "name": "પુજાપેટિ પ્યાલી",
+    "productId": "Pujapeti-Pyali",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2239"
+    },
+    "name": "પુજાપેટિ ભક્તના આસન",
+    "productId": "Pujapeti-Bhaktna_Aasan",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b223b"
+    },
+    "name": "પુજાપેટિ ભગવાનના આસન",
+    "productId": "Pujapeti-Bhagwanna_Aasan",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b223d"
+    },
+    "name": "પુજાપેટિ મંજન",
+    "productId": "Pujapeti-Manjan",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b223f"
+    },
+    "name": "પુજાપેટિ માળા",
+    "productId": "Pujapeti-Mala",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2241"
+    },
+    "name": "પુજાપેટિ વાટકિ",
+    "productId": "Pujapeti-Vatki",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2243"
+    },
+    "name": "પુજાપેટિ શિક્ષાપત્રી",
+    "productId": "Pujapeti-Shikshapatri",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2245"
+    },
+    "name": "પુજાપેટિ હરિક્રુષ્ણ મહારાજ",
+    "productId": "Pujapeti-Harikrushn_Maharaj",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2249"
+    },
+    "name": "અરિસા@10",
+    "productId": "P-017",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b224b"
+    },
+    "name": "ભક્તના આસન",
+    "productId": "P-021",
+    "price": 50,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b21cd"
+    },
+    "name": "શ્રીહરિચરિત્ર ચિંતામણી - ૩",
+    "productId": "B-046",
+    "price": 135,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.678Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b224f"
+    },
+    "name": "કલર કેડીયા",
+    "productId": "V1-004",
+    "price": 650,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2251"
+    },
+    "name": "કલર કેડીયા",
+    "productId": "V1-004",
+    "price": 650,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.870Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2253"
+    },
+    "name": "કલર કેડીયા",
+    "productId": "V1-004",
+    "price": 650,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2255"
+    },
+    "name": "કંકુ 100",
+    "productId": "P-019",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2257"
+    },
+    "name": "કંકુ 200",
+    "productId": "P-020",
+    "price": 40,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2259"
+    },
+    "name": "કંકુની ભૂંગળી",
+    "productId": "P-018",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b225b"
+    },
+    "name": "કંઠી તુલસી 11",
+    "productId": "P-005",
+    "price": 90,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b225d"
+    },
+    "name": "કંઠી તુલસી 9",
+    "productId": "P-004",
+    "price": 75,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b225f"
+    },
+    "name": "કંઠીસાદી 11",
+    "productId": "P-003",
+    "price": 25,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2261"
+    },
+    "name": "કંઠી સાદી 7",
+    "productId": "P-002",
+    "price": 15,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2265"
+    },
+    "name": "કંઠી તુલસી 11",
+    "productId": "P-005",
+    "price": 90,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2267"
+    },
+    "name": "કંઠી તુલસી 9",
+    "productId": "P-004",
+    "price": 75,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2269"
+    },
+    "name": "કંઠીસાદી 11",
+    "productId": "P-003",
+    "price": 25,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b226b"
+    },
+    "name": "કંઠી સાદી 7",
+    "productId": "P-002",
+    "price": 15,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b226f"
+    },
+    "name": "ગૌમુખી@10",
+    "productId": "Gaumukhi@10",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2271"
+    },
+    "name": "ગૌમુખી ફુગ્ગા",
+    "productId": "P-009",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2273"
+    },
+    "name": "ગૌમુખી સાદી",
+    "productId": "P-010",
+    "price": 20,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2275"
+    },
+    "name": "ધોતી સાદી",
+    "productId": "P-024",
+    "price": 200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2277"
+    },
+    "name": "સીવેલી ધોતી 40",
+    "productId": "P-025",
+    "price": 250,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2279"
+    },
+    "name": "સીવેલી ધોતી 42",
+    "productId": "P-026",
+    "price": 270,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b227b"
+    },
+    "name": "સીવેલી ધોતી 44",
+    "productId": "P-027",
+    "price": 280,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b227d"
+    },
+    "name": "માળા તુલસી",
+    "productId": "P-007",
+    "price": 160,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b227f"
+    },
+    "name": "માળા સાદી",
+    "productId": "P-006",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2281"
+    },
+    "name": "માળા સાદી",
+    "productId": "P-008",
+    "price": 20,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2283"
+    },
+    "name": "માળા સુખડની",
+    "productId": "P-008",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2285"
+    },
+    "name": "શાલ@150",
+    "productId": "P-023",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2287"
+    },
+    "name": "ચમચી",
+    "productId": "P-011",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2289"
+    },
+    "name": "પ્યાલી",
+    "productId": "P-012",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b228b"
+    },
+    "name": "વાટકી",
+    "productId": "P-013",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b228d"
+    },
+    "name": "ઓરસિયા",
+    "productId": "P-014",
+    "price": 5,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b228f"
+    },
+    "name": "ચંદનની ગોટી",
+    "productId": "P-015",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2291"
+    },
+    "name": "તિલકિય",
+    "productId": "P-016",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2213"
+    },
+    "name": "નિત્ય નિયમ",
+    "productId": "B-062",
+    "price": 10,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22a1"
+    },
+    "name": "અન્ય વસ્તુ",
+    "productId": "Any-Item",
+    "price": 0,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.684Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22a3"
+    },
+    "name": "ધુનયંત્ર@150",
+    "productId": "Dhunyantr@150",
+    "price": 150,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.684Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22a5"
+    },
+    "name": "ધૂનયંત્ર@260",
+    "productId": "O-004",
+    "price": 260,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22a7"
+    },
+    "name": "મંત્રવીટિ 130",
+    "productId": "O-002",
+    "price": 130,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22a9"
+    },
+    "name": "મંત્રવીટિ 175",
+    "productId": "Mantrviti-175",
+    "price": 175,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22ab"
+    },
+    "name": "મંત્રવીટી 20",
+    "productId": "O-000",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22ad"
+    },
+    "name": "મંત્રવીટી 30",
+    "productId": "O-001",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22af"
+    },
+    "name": "મંત્રવીટી 400",
+    "productId": "O-003",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22b1"
+    },
+    "name": "લેમીનેશનમુર્તિ 300",
+    "productId": "O-005",
+    "price": 300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b22b3"
+    },
+    "name": "લેમીનેશનમુર્તિ 500",
+    "productId": "O-006",
+    "price": 500,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.685Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b224d"
+    },
+    "name": "ભગવાનના આસન",
+    "productId": "P-022",
+    "price": 35,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.679Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532a8d65b12a5eb550b2295"
+    },
+    "name": "પૂજાપેટી",
+    "productId": "P-001",
+    "price": 70,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "653d152cba10a22a376cf836"
+    },
+    "name": "હારબુટ્ટી",
+    "productId": "G1-100",
+    "price": 30,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "654df2d4d5c61b7de02a50ae"
+    },
+    "name": "સરજુ",
+    "productId": "v1-031",
+    "price": 450,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "654df303d5c61b7de02a50b2"
+    },
+    "name": "સલૂણા",
+    "productId": "v1-032",
+    "price": 400,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "654df330d5c61b7de02a50b6"
+    },
+    "name": "નીલકંઠ",
+    "productId": "v1-029",
+    "price": 550,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "654df355d5c61b7de02a50ba"
+    },
+    "name": "લાડીલા",
+    "productId": "v1-030",
+    "price": 800,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-10-20T16:20:38.680Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "65539a6799263b8b7c22ae0c"
+    },
+    "name": "પુરૂષોત્તમચરિત્ર ગ્રંથ સેટ",
+    "productId": "B-094",
+    "price": 300,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-11-14T16:03:51.065Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "65539bc299263b8b7c22ae20"
+    },
+    "name": "લીલા ચેષ્ટા મહાત્મય સેટ",
+    "productId": "B-093",
+    "price": 200,
+    "image": "",
+    "rate": "",
+    "remark": "",
+    "createdAt": {
+      "date": "2023-11-14T16:09:38.459Z"
+    },
+    "updatedAt": {
+      "date": "2023-11-22T05:02:16.872Z"
+    },
+    "__v": 0
+  }
+]

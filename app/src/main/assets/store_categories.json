@@ -1,0 +1,221 @@
+[
+  {
+    "_id": {
+      "oid": "6532af47739f3dd7d4fdc7b6"
+    },
+    "name": "મુર્તિ",
+    "subCategory": [
+      {
+        "oid": "6532ad10171fdf11192cfa3f"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa41"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa43"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa45"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa47"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa49"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa4b"
+      }
+    ],
+    "createdAt": {
+      "date": "2023-10-20T16:48:07.666Z"
+    },
+    "updatedAt": {
+      "date": "2023-10-20T16:53:28.987Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532af47739f3dd7d4fdc7b8"
+    },
+    "name": "વાઘા",
+    "subCategory": [
+      {
+        "oid": "6532ad10171fdf11192cfa4d"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa4f"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa51"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa55"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa57"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa53"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa5b"
+      },
+      {
+        "oid": "65360f28e7785bacab731167"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa5d"
+      },
+      {
+        "oid": "653610ee40d49165b73fd593"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa59"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa5f"
+      }
+    ],
+    "createdAt": {
+      "date": "2023-10-20T16:48:07.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-10-20T16:53:28.988Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532af47739f3dd7d4fdc7ba"
+    },
+    "name": "ઘરેણા",
+    "subCategory": [
+      {
+        "oid": "6532ad10171fdf11192cfa65"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa67"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa69"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa6b"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa6d"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa6f"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa71"
+      }
+    ],
+    "createdAt": {
+      "date": "2023-10-20T16:48:07.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-10-20T16:53:28.988Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532af47739f3dd7d4fdc7be"
+    },
+    "name": "પુજા",
+    "subCategory": [
+      {
+        "oid": "6532ad10171fdf11192cfa89"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa8b"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa8d"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa8f"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa95"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa97"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa9b"
+      }
+    ],
+    "createdAt": {
+      "date": "2023-10-20T16:48:07.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-10-20T16:53:28.988Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532af47739f3dd7d4fdc7bc"
+    },
+    "name": "પુસ્તક",
+    "subCategory": [
+      {
+        "oid": "653636fe2407d7d61a4a89a8"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa7b"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa7d"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa77"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa81"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa83"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa85"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa73"
+      }
+    ],
+    "createdAt": {
+      "date": "2023-10-20T16:48:07.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-10-20T16:53:28.988Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "oid": "6532af47739f3dd7d4fdc7c0"
+    },
+    "name": "જનરલ",
+    "subCategory": [
+      {
+        "oid": "6532ad10171fdf11192cfa9d"
+      },
+      {
+        "oid": "6532ad10171fdf11192cfa9f"
+      }
+    ],
+    "createdAt": {
+      "date": "2023-10-20T16:48:07.667Z"
+    },
+    "updatedAt": {
+      "date": "2023-10-20T16:53:28.988Z"
+    },
+    "__v": 0
+  }
+]
