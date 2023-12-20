@@ -8,9 +8,13 @@ import com.example.grocerystoreclothes.view.MainViewModel
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import androidx.activity.viewModels
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.grocerystoreclothes.model.entity.StoreCategory
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.model.entity.StoreSubCategory
+import com.example.grocerystoreclothes.view.adapter.CategoryAdapter
+import com.example.grocerystoreclothes.view.adapter.ProductAdapter
+import com.example.grocerystoreclothes.view.adapter.SubCategoryAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -42,6 +46,19 @@ class MainActivity : AppCompatActivity() {
         Log.e("TAG", "onCreate: "+ storeProducts)
         mainViewModel.insertDataBase(storeCategories, storeSubCategories, storeProducts)
 
-        binding.recyclerCategory.adapter
+        binding.recyclerCategory.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        mainViewModel.getAllCategory()
+        mainViewModel.getAllSubCategory()
+        mainViewModel.getAllProducts()
+        mainViewModel.storeCategoryList.observe(this) {
+            binding.recyclerCategory.adapter  = CategoryAdapter(it)
+        }
+        mainViewModel.storeSubCategoryList.observe(this) {
+            binding.recyclerSubCategory.adapter  = SubCategoryAdapter(it)
+        }
+        mainViewModel.productsList.observe(this) {
+            binding.recyclerProduct.adapter  = ProductAdapter(it)
+        }
+
     }
 }
