@@ -3,14 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerSubCategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginVertical="8dp"
         android:orientation="horizontal"
-        tools:listitem="@layout/item_category_layout" />
+        tools:listitem="@layout/item_sub_category_layout" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerCategory"
@@ -18,16 +22,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/recyclerSubCategory"
         android:orientation="horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
         tools:listitem="@layout/item_category_layout" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerProduct"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:spanCount="2"
         android:layout_toEndOf="@+id/recyclerCategory"
         android:layout_below="@+id/recyclerSubCategory"
         android:orientation="horizontal"
-        tools:listitem="@layout/item_category_layout" />
+        tools:listitem="@layout/item_product_layout" />
 
 
 </RelativeLayout>

@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.grocerystoreclothes.databinding.ItemProductLayoutBinding
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 
-class ProductAdapter(storeCategories: List<StoreProduct>) :
+class ProductAdapter(storeProduct: List<StoreProduct>) :
     RecyclerView.Adapter<ProductAdapter.ViewHolder>() {
-    private var productList: List<StoreProduct> = storeCategories
+    private var productList: List<StoreProduct> = storeProduct
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
         ViewHolder(
@@ -22,10 +22,12 @@ class ProductAdapter(storeCategories: List<StoreProduct>) :
 
     inner class ViewHolder(private val binding: ItemProductLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(country: StoreProduct) {
+        fun bind(data: StoreProduct) {
             binding.apply {
-                country.also {
+                data.also {
                     txtProductName.text = it.name
+                    txtPrice.text = it.price.toString()
+                    txtProductid.text = it.productId
                 }
             }
         }
