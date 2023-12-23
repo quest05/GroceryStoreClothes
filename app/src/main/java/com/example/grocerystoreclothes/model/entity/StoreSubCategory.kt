@@ -28,6 +28,4 @@ data class StoreSubCategory(
 
     @SerializedName("__v")
     var _v: Int
-
-
 )

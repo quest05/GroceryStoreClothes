@@ -61,18 +61,30 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerSubCategory.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.recyclerProduct.layoutManager = GridLayoutManager(this, 2)
-        mainViewModel.getAllCategory()
-        mainViewModel.getAllSubCategory()
-        mainViewModel.getAllProducts()
+        mainViewModel.getDbAllCategory()
+        mainViewModel.getDbAllSubCategory()
+        mainViewModel.getDbAllProducts()
+
         mainViewModel.storeCategoryList.observe(this) {
-            binding.recyclerCategory.adapter = CategoryAdapter(it)
+            Log.e("TAG", "onCreate storeCategoryList ")
+            binding.recyclerCategory.adapter = CategoryAdapter(it, mainViewModel)
         }
-        mainViewModel.storeSubCategoryList.observe(this) {
+
+       /* val selectedSubCatList = mainViewModel.getSelectedStoreSubCategories(
+            mainViewModel.storeCategoryList.value?.get(0)?.subCategory ?: emptyList()
+        )*/
+
+        mainViewModel.selectedSubCatList.observe(this) {
             binding.recyclerSubCategory.adapter = SubCategoryAdapter(it)
         }
+
         mainViewModel.productsList.observe(this) {
             binding.recyclerProduct.adapter = ProductAdapter(it)
+
+//            getSelectedProduct()
         }
 
     }
+
+
 }
