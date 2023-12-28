@@ -27,7 +27,6 @@ class CategoryAdapter(storeCategories: List<StoreCategory>, mainViewModel: MainV
         )
     }
 
-
     override fun getItemCount(): Int = storeCategoryList.size
 
     inner class ViewHolder(private val binding: ItemCategoryLayoutBinding) :
@@ -39,36 +38,25 @@ class CategoryAdapter(storeCategories: List<StoreCategory>, mainViewModel: MainV
 
                     if (adapterPosition == selectedPosition) {
                         txtCategory.background = ContextCompat.getDrawable(
-                            itemView.context,
-                            R.drawable.rounded_filled_border
+                            itemView.context, R.drawable.rounded_filled_border
                         )
                         txtCategory.setTextColor(
-                            ContextCompat.getColor(
-                                itemView.context,
-                                R.color.white
-                            )
+                            ContextCompat.getColor(itemView.context, R.color.white)
                         )
                     } else {
                         txtCategory.background =
                             ContextCompat.getDrawable(itemView.context, R.drawable.rounded_border)
                         txtCategory.setTextColor(
-                            ContextCompat.getColor(
-                                itemView.context,
-                                R.color.black
-                            )
+                            ContextCompat.getColor(itemView.context, R.color.black)
                         )
                     }
 
                     txtCategory.setOnClickListener {
                         txtCategory.background = ContextCompat.getDrawable(
-                            itemView.context,
-                            R.drawable.rounded_filled_border
+                            itemView.context, R.drawable.rounded_filled_border
                         )
                         txtCategory.setTextColor(
-                            ContextCompat.getColor(
-                                itemView.context,
-                                R.color.white
-                            )
+                            ContextCompat.getColor(itemView.context, R.color.white)
                         )
                         notifyItemChanged(selectedPosition)
                         selectedPosition = adapterPosition

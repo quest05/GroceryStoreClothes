@@ -1,7 +1,6 @@
 package com.example.grocerystoreclothes
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -54,7 +53,6 @@ class MainActivity : AppCompatActivity() {
             storeProductListType
         )
 
-        Log.e("TAG", "onCreate: " + storeProducts)
         mainViewModel.insertDataBase(storeCategories, storeSubCategories, storeProducts)
 
         binding.recyclerCategory.layoutManager = LinearLayoutManager(this)
@@ -66,7 +64,6 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.getDbAllProducts()
 
         mainViewModel.storeCategoryList.observe(this) {
-            Log.e("TAG", "onCreate storeCategoryList ")
             binding.recyclerCategory.adapter = CategoryAdapter(it, mainViewModel)
         }
 
@@ -75,16 +72,15 @@ class MainActivity : AppCompatActivity() {
         )*/
 
         mainViewModel.selectedSubCatList.observe(this) {
-            binding.recyclerSubCategory.adapter = SubCategoryAdapter(it)
+            binding.recyclerSubCategory.adapter = SubCategoryAdapter(it, mainViewModel)
+        }
+
+        mainViewModel.selectedProductList.observe(this) {
+            binding.recyclerProduct.adapter = ProductAdapter(it)
         }
 
         mainViewModel.productsList.observe(this) {
-            binding.recyclerProduct.adapter = ProductAdapter(it)
-
-//            getSelectedProduct()
+//            binding.recyclerProduct.adapter = ProductAdapter(it)
         }
-
     }
-
-
 }

@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.grocerystoreclothes.model.Products
 import com.example.grocerystoreclothes.model.SubCategory
 import com.example.grocerystoreclothes.model.entity.StoreCategory
 import com.example.grocerystoreclothes.model.entity.StoreProduct
@@ -25,6 +26,7 @@ class MainViewModel @Inject constructor(
     val productsList = MutableLiveData<List<StoreProduct>>()
 
     val selectedSubCatList = MutableLiveData<List<StoreSubCategory>>()
+    val selectedProductList = MutableLiveData<List<StoreProduct>>()
 
     fun insertDataBase(
         storeCategories: List<StoreCategory>,
@@ -37,7 +39,6 @@ class MainViewModel @Inject constructor(
                 db.storeCategoryDao().insertStoreCategory(storeCategories)
                 db.storeSubCategoryDao().insertStoreSubCategory(storeSubCategories)
                 db.storeProductDao().insertStoreProduct(storeProducts)
-//                Log.e("TAG", "see storeSubCategoryDao: ${db.storeSubCategoryDao().getAllStoreSubCategories()} ")
                 Log.e("TAG", "see storeProductDao: ${db.storeProductDao().getAllStoreProducts()} ")
             }
         }
@@ -80,18 +81,28 @@ class MainViewModel @Inject constructor(
             for (storeSubCategory in storeSubCategoryList.value.orEmpty()) {
                 if (storeSubCategory.Id.oid == subCategoryId.oid) {
                     matchingSubCategories.add(storeSubCategory)
-//                    continue
+                    continue
                 }
             }
         }
-        Log.e("TAG",
-            "getSelectedStoreSubCategories: " + subCategoryIds + selectedSubCatList.value + "  \n " + (selectedSubCatList.value?.size
-                ?: 0)
-        )
         selectedSubCatList.postValue(matchingSubCategories)
 
         return matchingSubCategories
     }
 
+    fun getSelectedProductSubCat(productsId: List<Products>): List<StoreProduct> {
+        val matchingList = mutableListOf<StoreProduct>()
 
+        for (id in productsId) {
+            for (productsList in productsList.value.orEmpty()) {
+                if (productsList.Id.oid == id.oid) {
+                    matchingList.add(productsList)
+                    continue
+                }
+            }
+        }
+        selectedProductList.postValue(matchingList)
+
+        return matchingList
+    }
 }
