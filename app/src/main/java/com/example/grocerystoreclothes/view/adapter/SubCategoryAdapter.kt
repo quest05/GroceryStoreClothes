@@ -1,5 +1,6 @@
 package com.example.grocerystoreclothes.view.adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
@@ -24,9 +25,6 @@ class SubCategoryAdapter(dataList: List<StoreSubCategory>, mainViewModel: MainVi
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(storeSubCategoryList[position])
-        viewModel.getSelectedProductSubCat(
-            viewModel.storeSubCategoryList.value?.get(selectedPosition)?.products ?: emptyList()
-        )
     }
 
     override fun getItemCount(): Int = storeSubCategoryList.size
@@ -67,10 +65,8 @@ class SubCategoryAdapter(dataList: List<StoreSubCategory>, mainViewModel: MainVi
                         notifyItemChanged(selectedPosition)
                         selectedPosition = adapterPosition
 
-                        viewModel.getSelectedProductSubCat(
-                            viewModel.storeSubCategoryList.value?.get(selectedPosition)?.products
-                                ?: emptyList()
-                        )
+                        viewModel.getSelectedProductSubCat(storeSubCategoryList[selectedPosition].products)
+                        Log.e("TAG", " bind : " + selectedPosition + "  " + storeSubCategoryList[selectedPosition])
                     }
                 }
             }

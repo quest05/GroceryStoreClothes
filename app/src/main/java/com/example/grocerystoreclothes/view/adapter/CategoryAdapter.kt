@@ -22,9 +22,6 @@ class CategoryAdapter(storeCategories: List<StoreCategory>, mainViewModel: MainV
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(storeCategoryList[position])
-        viewmodel.getSelectedStoreSubCategories(
-            viewmodel.storeCategoryList.value?.get(selectedPosition)?.subCategory ?: emptyList()
-        )
     }
 
     override fun getItemCount(): Int = storeCategoryList.size
@@ -61,10 +58,7 @@ class CategoryAdapter(storeCategories: List<StoreCategory>, mainViewModel: MainV
                         notifyItemChanged(selectedPosition)
                         selectedPosition = adapterPosition
 
-                        viewmodel.getSelectedStoreSubCategories(
-                            viewmodel.storeCategoryList.value?.get(adapterPosition)?.subCategory
-                                ?: emptyList()
-                        )
+                        viewmodel.getSelectedStoreSubCategories(storeCategoryList[adapterPosition].subCategory)
                     }
                 }
             }

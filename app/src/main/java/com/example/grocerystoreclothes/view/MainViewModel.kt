@@ -1,6 +1,5 @@
 package com.example.grocerystoreclothes.view
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -22,8 +21,8 @@ class MainViewModel @Inject constructor(
 ) : ViewModel() {
 
     val storeCategoryList = MutableLiveData<List<StoreCategory>>()
-    val storeSubCategoryList = MutableLiveData<List<StoreSubCategory>>()
-    val productsList = MutableLiveData<List<StoreProduct>>()
+    private val storeSubCategoryList = MutableLiveData<List<StoreSubCategory>>()
+    private val productsList = MutableLiveData<List<StoreProduct>>()
 
     val selectedSubCatList = MutableLiveData<List<StoreSubCategory>>()
     val selectedProductList = MutableLiveData<List<StoreProduct>>()
@@ -39,7 +38,6 @@ class MainViewModel @Inject constructor(
                 db.storeCategoryDao().insertStoreCategory(storeCategories)
                 db.storeSubCategoryDao().insertStoreSubCategory(storeSubCategories)
                 db.storeProductDao().insertStoreProduct(storeProducts)
-                Log.e("TAG", "see storeProductDao: ${db.storeProductDao().getAllStoreProducts()} ")
             }
         }
     }
@@ -48,31 +46,11 @@ class MainViewModel @Inject constructor(
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
                 storeCategoryList.postValue(db.storeCategoryDao().getAllStoreCategories())
-            }
-        }
-    }
-
-    fun getDbAllSubCategory() {
-        viewModelScope.launch {
-            withContext(Dispatchers.IO) {
                 storeSubCategoryList.postValue(db.storeSubCategoryDao().getAllStoreSubCategories())
-            }
-        }
-    }
-
-
-    fun getDbAllProducts() {
-        viewModelScope.launch {
-            withContext(Dispatchers.IO) {
                 productsList.postValue(db.storeProductDao().getAllStoreProducts())
             }
         }
     }
-
-    /*fun getSelectedSubCategory() {
-        storeCategoryList.value?.get(0)?.Id
-        getSelectedStoreSubCategories(storeCategoryList.value?.get(0)?.subCategory ?: emptyList())
-    }*/
 
     fun getSelectedStoreSubCategories(subCategoryIds: List<SubCategory>): List<StoreSubCategory> {
         val matchingSubCategories = mutableListOf<StoreSubCategory>()

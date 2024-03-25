@@ -12,6 +12,8 @@ import com.example.grocerystoreclothes.model.entity.StoreProduct
 interface StoreProductDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertStoreProduct(storeProducts: List<StoreProduct>)
+    @Insert
+    fun insertProduct(data: StoreProduct)
 
     @Update
     fun updateStoreProduct(storeProduct: StoreProduct)

@@ -28,6 +28,10 @@ class ProductAdapter(storeProduct: List<StoreProduct>) :
                     txtProductName.text = it.name
                     txtPrice.text = it.price.toString()
                     txtProductid.text = it.productId
+                    btnAddItem.setOnClickListener {
+                        // perform adding item to create bill
+
+                    }
                 }
             }
         }
