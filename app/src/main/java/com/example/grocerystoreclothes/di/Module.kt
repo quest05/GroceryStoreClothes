@@ -3,8 +3,10 @@ package com.example.grocerystoreclothes.di
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
+import android.preference.PreferenceManager
 import androidx.room.Room
 import com.example.grocerystoreclothes.Constants.MY_PRODUCT_DATABASE
+import com.example.grocerystoreclothes.preferences.MyPreference
 import com.example.grocerystoreclothes.roomdb.MyDefaultProductDb
 import dagger.Module
 import dagger.Provides
@@ -27,4 +29,17 @@ object Module {
     fun provideSharedPreferences(@ApplicationContext context: Context): SharedPreferences {
         return context.getSharedPreferences("mySharedPreferences", Context.MODE_PRIVATE)
     }*/
+
+    @Singleton
+    @Provides
+    fun provideSharedPreferences(application: Application): SharedPreferences {
+        return PreferenceManager.getDefaultSharedPreferences(application)
+    }
+
+    @Singleton
+    @Provides
+    fun provideMyPreference(sharedPreferences: Application): MyPreference {
+        return MyPreference(sharedPreferences)
+    }
+
 }

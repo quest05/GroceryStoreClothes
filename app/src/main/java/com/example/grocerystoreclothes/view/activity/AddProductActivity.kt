@@ -11,7 +11,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.grocerystoreclothes.MainActivity
+import com.example.grocerystoreclothes.view.home.MainActivity
 import com.example.grocerystoreclothes.R
 import com.example.grocerystoreclothes.databinding.ActivityAddProductBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -39,7 +39,7 @@ class AddProductActivity : AppCompatActivity() {
             val namesList = it.map { it.name }
             val adapter = ArrayAdapter(
                 this,
-                android.R.layout.simple_spinner_item, namesList
+                R.layout.spinner_layout_item, namesList
             )
 
             binding.spinnerCategory.adapter = adapter
@@ -67,7 +67,7 @@ class AddProductActivity : AppCompatActivity() {
         viewModel.selectedSubCatList.observe(this) { subList ->
             val namesList = subList.map { it.name }
 
-            val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, namesList)
+            val adapter = ArrayAdapter(this, R.layout.spinner_layout_item, namesList)
             binding.spinnerSubCategory.adapter = adapter
         }
 

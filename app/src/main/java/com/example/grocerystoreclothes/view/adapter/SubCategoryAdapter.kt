@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.grocerystoreclothes.R
 import com.example.grocerystoreclothes.databinding.ItemSubCategoryLayoutBinding
 import com.example.grocerystoreclothes.model.entity.StoreSubCategory
-import com.example.grocerystoreclothes.view.MainViewModel
+import com.example.grocerystoreclothes.view.home.MainViewModel
 
 class SubCategoryAdapter(dataList: List<StoreSubCategory>, mainViewModel: MainViewModel) :
     RecyclerView.Adapter<SubCategoryAdapter.ViewHolder>() {

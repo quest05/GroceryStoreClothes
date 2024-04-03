@@ -1,4 +1,4 @@
-package com.example.grocerystoreclothes
+package com.example.grocerystoreclothes.view.home
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,16 +9,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.grocerystoreclothes.databinding.ActivityMainBinding
-import com.example.grocerystoreclothes.model.entity.StoreCategory
-import com.example.grocerystoreclothes.model.entity.StoreProduct
-import com.example.grocerystoreclothes.model.entity.StoreSubCategory
-import com.example.grocerystoreclothes.view.MainViewModel
 import com.example.grocerystoreclothes.view.activity.AddProductActivity
 import com.example.grocerystoreclothes.view.adapter.CategoryAdapter
 import com.example.grocerystoreclothes.view.adapter.ProductAdapter
 import com.example.grocerystoreclothes.view.adapter.SubCategoryAdapter
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
+import com.example.grocerystoreclothes.view.setting.SettingActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -37,28 +32,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
-        val assetManager = resources.assets
-        val inputStreamStoreCat = assetManager.open("store_categories.json")
-        val inputStreamStoreSubCat = assetManager.open("store_sub_categories.json")
-        val inputStreamStoreProduct = assetManager.open("store_products.json")
-        val jsonStrStoreCat = inputStreamStoreCat.bufferedReader().readText()
-
-        val storeCategoryListType = object : TypeToken<List<StoreCategory>>() {}.type
-        val storeCategories: List<StoreCategory> =
-            Gson().fromJson(jsonStrStoreCat, storeCategoryListType)
-
-        val storeSubCatListType = object : TypeToken<List<StoreSubCategory>>() {}.type
-        val storeSubCategories: List<StoreSubCategory> =
-            Gson().fromJson(inputStreamStoreSubCat.bufferedReader().readText(), storeSubCatListType)
-
-        val storeProductListType = object : TypeToken<List<StoreProduct>>() {}.type
-        val storeProducts: List<StoreProduct> = Gson().fromJson(
-            inputStreamStoreProduct.bufferedReader().readText(),
-            storeProductListType
-        )
-
-        mainViewModel.insertDataBase(storeCategories, storeSubCategories, storeProducts)
 
         binding.recyclerCategory.layoutManager = LinearLayoutManager(this)
         binding.recyclerSubCategory.layoutManager =
@@ -86,7 +59,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnAddProduct.setOnClickListener {
             it.context.startActivity(Intent(it.context, AddProductActivity::class.java).apply {
-            // putExtra("keyIdentifier", value)
+                // putExtra("keyIdentifier", value)
+            })
+        }
+
+        binding.btnSetting.setOnClickListener {
+            it.context.startActivity(Intent(it.context, SettingActivity::class.java).apply {
             })
         }
     }

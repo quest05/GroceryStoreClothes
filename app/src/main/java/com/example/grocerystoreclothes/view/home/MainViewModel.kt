@@ -1,4 +1,4 @@
-package com.example.grocerystoreclothes.view
+package com.example.grocerystoreclothes.view.home
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,6 +8,7 @@ import com.example.grocerystoreclothes.model.SubCategory
 import com.example.grocerystoreclothes.model.entity.StoreCategory
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.model.entity.StoreSubCategory
+import com.example.grocerystoreclothes.preferences.MyPreference
 import com.example.grocerystoreclothes.roomdb.MyDefaultProductDb
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -17,7 +18,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    private val db: MyDefaultProductDb
+    private val db: MyDefaultProductDb,
+    private val myPreference: MyPreference
 ) : ViewModel() {
 
     val storeCategoryList = MutableLiveData<List<StoreCategory>>()
@@ -27,20 +29,7 @@ class MainViewModel @Inject constructor(
     val selectedSubCatList = MutableLiveData<List<StoreSubCategory>>()
     val selectedProductList = MutableLiveData<List<StoreProduct>>()
 
-    fun insertDataBase(
-        storeCategories: List<StoreCategory>,
-        storeSubCategories: List<StoreSubCategory>,
-        storeProducts: List<StoreProduct>
-    ) {
-        viewModelScope.launch {
 
-            withContext(Dispatchers.IO) {
-                db.storeCategoryDao().insertStoreCategory(storeCategories)
-                db.storeSubCategoryDao().insertStoreSubCategory(storeSubCategories)
-                db.storeProductDao().insertStoreProduct(storeProducts)
-            }
-        }
-    }
 
     fun getDbAllCategory() {
         viewModelScope.launch {
