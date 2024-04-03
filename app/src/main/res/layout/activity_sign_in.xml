@@ -32,14 +32,14 @@
             android:layout_marginEnd="26dp"
             android:checked="true"
             android:textColor="@color/black"
-            android:text="Admin" />
+            android:text="@string/admin" />
 
         <RadioButton
             android:id="@+id/radioUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="User" />
+            android:text="@string/user" />
     </RadioGroup>
 
 
@@ -51,7 +51,7 @@
         android:layout_below="@id/radio_group"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="28dp"
-        android:hint="Enter email"
+        android:hint="@string/enter_email"
         android:nextFocusDown="@id/textInputLayoutPassword"
         android:textColorHint="@color/mainColor"
         app:boxStrokeColor="@color/mainColor"
@@ -76,7 +76,7 @@
         android:layout_marginHorizontal="16dp"
         android:textColorHint="@color/mainColor"
         android:layout_marginTop="16dp"
-        android:hint="Enter password"
+        android:hint="@string/enter_password"
         app:boxStrokeColor="@color/mainColor"
         app:boxStrokeWidth="2dp"
         app:hintTextColor="@color/black">
@@ -99,6 +99,6 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="@color/mainColor"
         android:textColor="@color/white"
-        android:text="Sign In" />
+        android:text="@string/sign_in" />
 
 </RelativeLayout>

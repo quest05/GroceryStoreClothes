@@ -75,13 +75,7 @@ class CreateUserByAdminActivity : AppCompatActivity() {
         return true
     }
 
-
-    private fun isValidEmail(email: String): Boolean {
-        return Patterns.EMAIL_ADDRESS.matcher(email).matches()
-    }
-
     private fun isValidPassword(password: String): Boolean {
-        // Password should be at least 6 characters long
         val pattern = Pattern.compile("^.{6,}$")
         return pattern.matcher(password).matches()
     }

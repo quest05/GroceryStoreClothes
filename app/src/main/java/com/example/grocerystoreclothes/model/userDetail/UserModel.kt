@@ -1,8 +1,5 @@
 package com.example.grocerystoreclothes.model.userDetail
 
-import android.os.Parcel
-import android.os.Parcelable
-
 data class UserModel(
     val id: Int,
     val name: String,

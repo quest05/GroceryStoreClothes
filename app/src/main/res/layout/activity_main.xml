@@ -23,9 +23,10 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
+        android:contentDescription="@null"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:clickable="true"
-        />
+        android:focusable="true" />
 
 
     <ProgressBar
@@ -75,7 +76,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/mainColor"
-        android:text="Add new product"
+        android:text="@string/add_new_product"
         android:textColor="@color/white"
         app:cornerRadius="10dp" />
 

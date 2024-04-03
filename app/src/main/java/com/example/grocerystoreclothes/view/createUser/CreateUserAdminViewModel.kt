@@ -42,7 +42,7 @@ class CreateUserAdminViewModel  @Inject constructor(
         editor.putString("user_list", updatedUserListJson)
         editor.apply()
 
-        return true;
+        return true
 
     }
 
