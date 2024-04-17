@@ -73,8 +73,6 @@ class AddCartActivity : AppCompatActivity() {
         }
 
         binding.btnCreateBill.setOnClickListener {
-            // TODO set dynamic bill number and time as well
-
             showConfirmationDialog(
                 "Are you sure you want to proceed?",
                 onConfirm = {

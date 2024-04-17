@@ -160,7 +160,21 @@ class CreateBillActivity : AppCompatActivity() {
     private fun showDeviceSelectionDialog() {
         val pairedDevices = bluetoothAdapter?.bondedDevices ?: emptyList()
 
-        val devices = pairedDevices.map { it.name to it }.toMap()
+        val devices = pairedDevices.map { if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.BLUETOOTH_CONNECT
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return
+        }
+            it.name to it }.toMap()
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, devices.keys.toList())
 
         val dialog = AlertDialog.Builder(this)
