@@ -1,4 +1,4 @@
-package com.example.grocerystoreclothes.view.activity
+package com.example.grocerystoreclothes.view.addpProduct
 
 import android.content.Intent
 import android.os.Bundle

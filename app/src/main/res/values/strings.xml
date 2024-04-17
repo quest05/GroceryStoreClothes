@@ -14,4 +14,6 @@
     <string name="enter_product_name">Enter product name</string>
     <string name="enter_product_price">Enter product price</string>
     <string name="add_product">Add Product</string>
+    <string name="create_bill">Create Bill</string>
+    <string name="print_bill">Print Bill</string>
 </resources>

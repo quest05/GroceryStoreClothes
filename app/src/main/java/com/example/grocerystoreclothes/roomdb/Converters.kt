@@ -6,22 +6,11 @@ import com.example.grocerystoreclothes.model.Id
 import com.example.grocerystoreclothes.model.Products
 import com.example.grocerystoreclothes.model.SubCategory
 import com.example.grocerystoreclothes.model.UpdatedAt
+import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.google.gson.Gson
-
 import com.google.gson.reflect.TypeToken
 
 class Converters {
-
-    @TypeConverter
-    fun fromString(value: String): List<String> {
-        val listType = object : TypeToken<List<String>>() {}.type
-        return Gson().fromJson(value, listType)
-    }
-
-    @TypeConverter
-    fun fromList(list: List<String>): String? {
-        return Gson().toJson(list)
-    }
 
     @TypeConverter
     fun fromSubCategoryList(subCategoryList: List<SubCategory>): String {
@@ -77,6 +66,15 @@ class Converters {
     fun toUpdatedAt(value: String): UpdatedAt {
         return Gson().fromJson(value, UpdatedAt::class.java)
     }
+    @TypeConverter
+    fun fromSaveBill(subCategoryList: List<StoreProduct>): String {
+        // Convert list to JSON string
+        return Gson().toJson(subCategoryList)
+    }
 
-
+    @TypeConverter
+    fun toSaveBill(subCategoryString: String): List<StoreProduct> {
+        // Convert JSON string to list
+        return Gson().fromJson(subCategoryString, object : TypeToken<List<StoreProduct>>() {}.type)
+    }
 }

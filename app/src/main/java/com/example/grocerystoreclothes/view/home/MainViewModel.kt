@@ -8,7 +8,6 @@ import com.example.grocerystoreclothes.model.SubCategory
 import com.example.grocerystoreclothes.model.entity.StoreCategory
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.model.entity.StoreSubCategory
-import com.example.grocerystoreclothes.preferences.MyPreference
 import com.example.grocerystoreclothes.roomdb.MyDefaultProductDb
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -18,8 +17,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    private val db: MyDefaultProductDb,
-    private val myPreference: MyPreference
+    private val db: MyDefaultProductDb
 ) : ViewModel() {
 
     val storeCategoryList = MutableLiveData<List<StoreCategory>>()
@@ -29,6 +27,32 @@ class MainViewModel @Inject constructor(
     val selectedSubCatList = MutableLiveData<List<StoreSubCategory>>()
     val selectedProductList = MutableLiveData<List<StoreProduct>>()
 
+    companion object {
+        val addCartProduct = MutableLiveData<List<StoreProduct>>(emptyList())
+    }
+    fun addToCartProduct(product: StoreProduct) {
+        /*val currentList = addCartProduct.value.orEmpty().toMutableList()
+        currentList.add(product)
+        addCartProduct.value = currentList*/
+
+        val currentList = addCartProduct.value ?: emptyList()
+        val existingProduct = currentList.find { it.Id.oid == product.Id.oid }
+
+        if (existingProduct != null) {
+            val updatedList = currentList.map {
+                if (it.Id.oid == product.Id.oid) {
+                    it.copy(cartCount = it.cartCount?.plus(1))
+                } else {
+                    it
+                }
+            }
+            addCartProduct.value = updatedList
+        } else {
+            val newList = currentList.toMutableList()
+            newList.add(product.copy(cartCount = 1))
+            addCartProduct.value = newList
+        }
+    }
 
 
     fun getDbAllCategory() {

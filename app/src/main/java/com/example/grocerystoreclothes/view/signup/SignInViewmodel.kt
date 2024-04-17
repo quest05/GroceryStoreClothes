@@ -26,10 +26,6 @@ class SignInViewmodel @Inject constructor(
 
 ) : ViewModel() {
 
-    init {
-        Log.e("TAG", ": admin login  " + myPreference.isAdminLogin())
-    }
-
     fun insertDataBase(
         storeCategories: List<StoreCategory>,
         storeSubCategories: List<StoreSubCategory>,
@@ -46,7 +42,6 @@ class SignInViewmodel @Inject constructor(
 
     fun setAdminPreference(isLogin: Boolean) {
         myPreference.setAdminLogin(isLogin)
-        Log.e("TAG", ": admin login  $isLogin")
     }
 
     fun isAdminLogin(): Boolean {

@@ -1,4 +1,4 @@
-package com.example.grocerystoreclothes.view.activity
+package com.example.grocerystoreclothes.view.addpProduct
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData

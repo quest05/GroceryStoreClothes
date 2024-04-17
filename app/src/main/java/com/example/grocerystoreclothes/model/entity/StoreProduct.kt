@@ -6,6 +6,7 @@ import com.example.grocerystoreclothes.model.CreatedAt
 import com.example.grocerystoreclothes.model.Id
 import com.example.grocerystoreclothes.model.UpdatedAt
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 @Entity(tableName = "store_product_table")
 data class StoreProduct(
@@ -37,5 +38,8 @@ data class StoreProduct(
     var updatedAt: UpdatedAt,
 
     @SerializedName("__v")
-    var _v: Int? = null
-)
+    var _v: Int? = null,
+
+    @SerializedName("count")
+    var cartCount: Int? = null
+): Serializable

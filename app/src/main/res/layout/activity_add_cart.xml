@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.addcart.AddCartActivity">
+
+
+    <TextView
+        android:id="@+id/txtTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/txtEmptyCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart is empty "
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        android:padding="4dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvShowCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTotalAmount"
+        android:clipToPadding="false"
+        android:paddingBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnCreateBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_bill"
+        android:backgroundTint="@color/mainColor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

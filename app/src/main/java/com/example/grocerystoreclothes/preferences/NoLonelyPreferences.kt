@@ -11,13 +11,15 @@ class MyPreference @Inject constructor(@ApplicationContext context : Context){
     private val prefs = PreferenceManager.getDefaultSharedPreferences(context)
 
     fun isAdminLogin(): Boolean {
-        return prefs.getBoolean(PREF_TAG, false)
+        return prefs.getBoolean("PREF_ADMIN_LOGIN", false)
     }
     fun setAdminLogin(query: Boolean) {
-        prefs.edit().putBoolean(PREF_TAG, query).apply()
+        prefs.edit().putBoolean("PREF_ADMIN_LOGIN", query).apply()
     }
-
-    companion object {
-        private const val PREF_TAG = "tag"
+    fun setBillNo(query: Int) {
+        prefs.edit().putInt("BILL_NUMBER", query).apply()
+    }
+    fun getBillNo(): Int {
+        return prefs.getInt("BILL_NUMBER", 0)
     }
 }

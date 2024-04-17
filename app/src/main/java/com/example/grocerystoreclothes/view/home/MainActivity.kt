@@ -9,14 +9,18 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.grocerystoreclothes.databinding.ActivityMainBinding
-import com.example.grocerystoreclothes.view.activity.AddProductActivity
+import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.view.adapter.CategoryAdapter
 import com.example.grocerystoreclothes.view.adapter.ProductAdapter
 import com.example.grocerystoreclothes.view.adapter.SubCategoryAdapter
+import com.example.grocerystoreclothes.view.addcart.AddCartActivity
+import com.example.grocerystoreclothes.view.addpProduct.AddProductActivity
+import com.example.grocerystoreclothes.view.home.MainViewModel.Companion.addCartProduct
 import com.example.grocerystoreclothes.view.setting.SettingActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import java.io.Serializable
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
@@ -54,17 +58,54 @@ class MainActivity : AppCompatActivity() {
         }
 
         mainViewModel.selectedProductList.observe(this) {
-            binding.recyclerProduct.adapter = ProductAdapter(it)
+            binding.recyclerProduct.adapter =
+                ProductAdapter(it, object : ProductAdapter.OnProductClickListener {
+                    override fun onClickAddProduct(position: Int, products: StoreProduct) {
+                        mainViewModel.addToCartProduct(products)
+                        // Handle the click action here
+                    }
+                })
         }
+
 
         binding.btnAddProduct.setOnClickListener {
             it.context.startActivity(Intent(it.context, AddProductActivity::class.java).apply {
                 // putExtra("keyIdentifier", value)
             })
+           /* if(mainViewModel.addCartProduct.value?.isEmpty() == true){
+
+            } else {
+                showConfirmationDialog(
+                    "There is Product in cart... \nAre you sure you want to empty cart?",
+                    onConfirm = {
+                        it.context.startActivity(Intent(it.context, AddProductActivity::class.java).apply {
+                            // putExtra("keyIdentifier", value)
+                        })
+                    }
+                )
+            }*/
         }
 
         binding.btnSetting.setOnClickListener {
             it.context.startActivity(Intent(it.context, SettingActivity::class.java).apply {
+            })
+            /*if(mainViewModel.addCartProduct.value?.isEmpty() == true){
+
+            }else{
+                showConfirmationDialog(
+                    "There is Product in cart... \nAre you sure you want to empty cart?",
+                    onConfirm = {
+                        it.context.startActivity(Intent(it.context, SettingActivity::class.java).apply {
+                        })
+                    }
+                )
+            }*/
+        }
+
+        binding.btnCart.setOnClickListener {
+            val addCartProductValue = addCartProduct.value
+            it.context.startActivity(Intent(it.context, AddCartActivity::class.java).apply {
+                putExtra("addedProduct", addCartProductValue as Serializable)
             })
         }
     }

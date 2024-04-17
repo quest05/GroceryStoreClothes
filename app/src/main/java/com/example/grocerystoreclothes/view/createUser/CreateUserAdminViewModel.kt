@@ -5,18 +5,13 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.preference.PreferenceManager
 import com.example.grocerystoreclothes.model.userDetail.UserModel
-import com.example.grocerystoreclothes.preferences.MyPreference
-import com.example.grocerystoreclothes.roomdb.MyDefaultProductDb
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class CreateUserAdminViewModel  @Inject constructor(
-    private val db: MyDefaultProductDb,
-    private val myPreference: MyPreference
-) : ViewModel() {
+class CreateUserAdminViewModel  @Inject constructor() : ViewModel() {
 
     fun addUsersToPreferenceList(context: Context, newUsers: UserModel): Boolean {
         val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
