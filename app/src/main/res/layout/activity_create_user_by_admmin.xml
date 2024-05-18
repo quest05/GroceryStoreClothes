@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".view.createUser.CreateUserByAdminActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -17,6 +17,7 @@
         android:layout_marginTop="32dp"
         android:hint="@string/enter_name"
         android:nextFocusDown="@id/textInputLayoutPassword"
+        android:textColorHint="@color/mainColor"
         app:boxStrokeColor="@color/mainColor"
         app:boxStrokeWidth="2dp"
         app:hintTextColor="@color/black">
@@ -34,11 +35,12 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayoutName"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
-        android:layout_below="@+id/textInputLayoutName"
         android:hint="@string/enter_email"
         android:nextFocusDown="@id/textInputLayoutPassword"
+        android:textColorHint="@color/mainColor"
         app:boxStrokeColor="@color/mainColor"
         app:boxStrokeWidth="2dp"
         app:hintTextColor="@color/black">
@@ -60,6 +62,7 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         android:hint="@string/enter_password"
+        android:textColorHint="@color/mainColor"
         app:boxStrokeColor="@color/mainColor"
         app:boxStrokeWidth="2dp"
         app:hintTextColor="@color/black">
@@ -81,6 +84,7 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         android:hint="@string/enter_confirm_password"
+        android:textColorHint="@color/mainColor"
         app:boxStrokeColor="@color/mainColor"
         app:boxStrokeWidth="2dp"
         app:hintTextColor="@color/black">
@@ -97,14 +101,13 @@
         android:id="@+id/btnAddUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="30dp"
-        android:layout_marginHorizontal="30dp"
-        app:cornerRadius="10dp"
-        android:backgroundTint="@color/mainColor"
-        android:textColor="@color/white"
-        android:text="@string/add_user"
         android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
         android:layout_marginBottom="16dp"
-        />
+        android:backgroundTint="@color/mainColor"
+        android:text="@string/add_user"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp" />
 
 </RelativeLayout>

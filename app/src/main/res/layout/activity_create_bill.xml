@@ -4,22 +4,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".view.createBill.CreateBillActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="4dp"
-        android:text="Bill Saved"/>
-
+        android:textColor="@color/black"
+        android:text="Bill Saved" />
 
     <Button
         android:id="@+id/btnPrint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/print_bill"
-        android:backgroundTint="@color/mainColor"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:layout_centerHorizontal="true"/>
+        android:backgroundTint="@color/mainColor"
+        android:text="@string/print_bill"
+        android:textColor="@color/white" />
 </RelativeLayout>

@@ -177,7 +177,7 @@ class CreateBillActivity : AppCompatActivity() {
             it.name to it }.toMap()
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, devices.keys.toList())
 
-        val dialog = AlertDialog.Builder(this)
+        val dialog = AlertDialog.Builder(this, R.style.AlertDialogTheme)
             .setTitle("Select Printer")
             .setAdapter(adapter) { dialog, which ->
                 val selectedDevice = devices.values.toList()[which]

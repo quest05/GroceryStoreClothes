@@ -15,6 +15,7 @@ import com.example.grocerystoreclothes.view.adapter.ProductAdapter
 import com.example.grocerystoreclothes.view.adapter.SubCategoryAdapter
 import com.example.grocerystoreclothes.view.addcart.AddCartActivity
 import com.example.grocerystoreclothes.view.addpProduct.AddProductActivity
+import com.example.grocerystoreclothes.view.billFilter.FilterBillActivity
 import com.example.grocerystoreclothes.view.home.MainViewModel.Companion.addCartProduct
 import com.example.grocerystoreclothes.view.setting.SettingActivity
 import dagger.hilt.android.AndroidEntryPoint
@@ -100,6 +101,12 @@ class MainActivity : AppCompatActivity() {
                     }
                 )
             }*/
+        }
+
+
+        binding.btnFilterBill.setOnClickListener {
+            it.context.startActivity(Intent(it.context, FilterBillActivity::class.java).apply {
+            })
         }
 
         binding.btnCart.setOnClickListener {

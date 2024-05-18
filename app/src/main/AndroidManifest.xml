@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
         android:name=".BaseApplication"
@@ -15,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GroceryStoreClothes"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".view.billFilter.FilterBillActivity"
+            android:exported="false" />
         <activity
             android:name=".view.createBill.CreateBillActivity"
             android:exported="false" />
