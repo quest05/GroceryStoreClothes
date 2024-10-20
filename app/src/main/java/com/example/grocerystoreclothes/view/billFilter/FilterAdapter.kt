@@ -1,5 +1,6 @@
 package com.example.grocerystoreclothes.view.billFilter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -26,12 +27,13 @@ class FilterAdapter(
 
     inner class ViewHolder(private val binding: ItemFilterBillBinding) :
         RecyclerView.ViewHolder(binding.root) {
+        @SuppressLint("SetTextI18n")
         fun bind(data: AllSaveBillProduct) {
             binding.apply {
                 data.also { data ->
                     txtBillNumber.text =  "Bill Number: "+data.billNumber
-                    txtTotalAmount.text =  "Total BIll Amount: "+data.billNumber
-                    txtBillDate.text = formatDate(data.billDateTime)
+                    txtTotalAmount.text = "Total BIll Amount: "+data.billTotalAmount
+                    txtBillDate.text = "Bill Date: " + formatDate(data.billDateTime)
                     val billStrBuilder = StringBuilder()
 
                     data.billItemList.forEachIndexed { index, product ->
@@ -51,7 +53,7 @@ class FilterAdapter(
 
     fun formatDate(timestamp: Long): String {
         val date = Date(timestamp)
-        val dateFormat = SimpleDateFormat("dd-MM-yyyy")
+        val dateFormat = SimpleDateFormat("dd-MM-yyyy (hh:mm a)")
         return dateFormat.format(date)
     }
 }

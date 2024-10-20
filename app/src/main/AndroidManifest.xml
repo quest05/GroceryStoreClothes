@@ -17,6 +17,9 @@
         android:theme="@style/Theme.GroceryStoreClothes"
         tools:targetApi="31">
         <activity
+            android:name=".view.setting.report.TodayReportActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.billFilter.FilterBillActivity"
             android:exported="false" />
         <activity
@@ -42,7 +45,9 @@
         </activity>
         <activity
             android:name=".view.home.MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:configChanges="orientation|screenSize"/>
+
         <activity
             android:name=".view.signup.SignInActivity"
             android:exported="true" />

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/txtCount"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingHorizontal="4dp"
+            android:visibility="gone"
+            android:paddingVertical="4dp"
+            android:text="Sr. No."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+        <TextView
+            android:id="@+id/txtProductId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="0.8"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingHorizontal="2dp"
+            android:paddingVertical="4dp"
+            android:text="Pr. Id"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+        <TextView
+            android:id="@+id/txtProductName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="1.1"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:text="Item"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+
+        <TextView
+            android:id="@+id/txtProductQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="1.1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="4dp"
+            android:text="Qty"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:text="Amount"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -2,6 +2,8 @@ package com.example.grocerystoreclothes.view.signup
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.util.Patterns
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -9,12 +11,12 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.grocerystoreclothes.view.home.MainActivity
 import com.example.grocerystoreclothes.R
 import com.example.grocerystoreclothes.databinding.ActivitySignInBinding
 import com.example.grocerystoreclothes.model.entity.StoreCategory
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.model.entity.StoreSubCategory
+import com.example.grocerystoreclothes.view.home.MainActivity
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.AndroidEntryPoint
@@ -60,9 +62,18 @@ class SignInActivity : AppCompatActivity() {
 
         viewModel.insertDataBase(storeCategories, storeSubCategories, storeProducts)
 
+        Handler(Looper.getMainLooper()).postDelayed({
+            binding.buttonSignIn.performClick()
+        }, 1000)
+
+
+
         binding.buttonSignIn.setOnClickListener {
-            val email = binding.editTextEmail.text.toString().trim()
-            val password = binding.editTextPassword.text.toString().trim()
+//            val email = binding.editTextEmail.text.toString().trim()
+//            val password = binding.editTextPassword.text.toString().trim()
+
+            val email = "admin@gmail.com"
+            val password = "admin@123"
 
             if (isValidEmail(email) && isValidPassword(password)) {
                 // Perform sign-in logic here

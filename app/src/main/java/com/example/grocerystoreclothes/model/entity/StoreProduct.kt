@@ -1,5 +1,6 @@
 package com.example.grocerystoreclothes.model.entity
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.grocerystoreclothes.model.CreatedAt
@@ -41,5 +42,7 @@ data class StoreProduct(
     var _v: Int? = null,
 
     @SerializedName("count")
-    var cartCount: Int? = null
-): Serializable
+    var cartCount: Int? = null,
+    @ColumnInfo(name = "isReturn")
+    val isReturn: Boolean
+) : Serializable

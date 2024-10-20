@@ -51,7 +51,7 @@ class SubCategoryAdapter(dataList: List<StoreSubCategory>, mainViewModel: MainVi
                         txtSubCategory.background =
                             ContextCompat.getDrawable(itemView.context, R.drawable.rounded_border)
                         txtSubCategory.setTextColor(
-                            ContextCompat.getColor(itemView.context, R.color.black)
+                            ContextCompat.getColor(itemView.context, R.color.secondary_text)
                         )
                     }
 

@@ -42,7 +42,6 @@ class SplashActivity : AppCompatActivity() {
                 startActivity(Intent(this@SplashActivity, SignInActivity::class.java).apply {
                 })
                 finish()
-                // check user login as well
             }
         }
     }

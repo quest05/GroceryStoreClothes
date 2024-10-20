@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-    android:background="@color/white"
-        android:layout_marginHorizontal="4dp">
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/txtSubCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="8dp"
-        android:paddingVertical="4dp"
-        android:textColor="@color/black"
         android:background="@drawable/rounded_border"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
         android:text="@string/app_name"
-        android:textSize="18sp"
-        />
+        android:textColor="@color/secondary_text"
+        android:textSize="16sp" />
 
 </RelativeLayout>

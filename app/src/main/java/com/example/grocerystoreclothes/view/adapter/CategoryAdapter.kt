@@ -1,5 +1,6 @@
 package com.example.grocerystoreclothes.view.adapter
 
+import android.graphics.Typeface
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
@@ -35,26 +36,29 @@ class CategoryAdapter(storeCategories: List<StoreCategory>, mainViewModel: MainV
 
                     if (adapterPosition == selectedPosition) {
                         txtCategory.background = ContextCompat.getDrawable(
-                            itemView.context, R.drawable.rounded_filled_border
+                            itemView.context, R.drawable.bottom_line_border
                         )
                         txtCategory.setTextColor(
-                            ContextCompat.getColor(itemView.context, R.color.white)
+                            ContextCompat.getColor(itemView.context, R.color.primary_text)
                         )
+                        txtCategory.setTypeface(null, Typeface.BOLD)
+
                     } else {
-                        txtCategory.background =
-                            ContextCompat.getDrawable(itemView.context, R.drawable.rounded_border)
+                        txtCategory.background = null
                         txtCategory.setTextColor(
-                            ContextCompat.getColor(itemView.context, R.color.black)
+                            ContextCompat.getColor(itemView.context, R.color.secondary_text)
                         )
+                        txtCategory.setTypeface(null, Typeface.NORMAL)
                     }
 
                     txtCategory.setOnClickListener {
                         txtCategory.background = ContextCompat.getDrawable(
-                            itemView.context, R.drawable.rounded_filled_border
+                            itemView.context, R.drawable.bottom_line_border
                         )
                         txtCategory.setTextColor(
-                            ContextCompat.getColor(itemView.context, R.color.white)
+                            ContextCompat.getColor(itemView.context, R.color.primary_text)
                         )
+                        txtCategory.setTypeface(null, Typeface.BOLD)
                         notifyItemChanged(selectedPosition)
                         selectedPosition = adapterPosition
 

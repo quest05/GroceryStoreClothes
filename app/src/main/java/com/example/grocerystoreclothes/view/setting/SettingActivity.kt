@@ -10,7 +10,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.grocerystoreclothes.R
 import com.example.grocerystoreclothes.databinding.ActivitySettingBinding
+import com.example.grocerystoreclothes.view.billFilter.FilterBillActivity
 import com.example.grocerystoreclothes.view.createUser.CreateUserByAdminActivity
+import com.example.grocerystoreclothes.view.setting.report.TodayReportActivity
 import com.example.grocerystoreclothes.view.signup.SignInActivity
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -49,6 +51,10 @@ class SettingActivity : AppCompatActivity() {
             binding.btnAddUser.visibility = View.GONE
         }
 
+       /* binding.btnReturnProduct.setOnClickListener {
+
+
+        }*/
         binding.btnLogout.setOnClickListener {
             if (viewmodel.isAdminLogIn()) {
                 viewmodel.adminLogOut(false)
@@ -63,6 +69,15 @@ class SettingActivity : AppCompatActivity() {
             finish()
         }
 
+        binding.btnViewAllBill.setOnClickListener {
+            it.context.startActivity(Intent(it.context, FilterBillActivity::class.java).apply {
+            })
+        }
+
+        binding.btnTodayReport.setOnClickListener {
+            it.context.startActivity(Intent(it.context, TodayReportActivity::class.java).apply {
+            })
+        }
 
     }
 }

@@ -74,7 +74,7 @@ class AddProductViewModel @Inject constructor(
         val created = CreatedAt(date = getCurrentDateTime())
         val updated = UpdatedAt(date = getCurrentDateTime())
         val data = StoreProduct(Id = productId, productId = "Test-01", name = txtProduct, price = productPrice.toInt(), image = null,
-            rate = "", remark = "", createdAt = created, updatedAt = updated)
+            rate = "", remark = "", createdAt = created, updatedAt = updated, isReturn = false)
 
         viewModelScope.launch {
             withContext(Dispatchers.IO) {

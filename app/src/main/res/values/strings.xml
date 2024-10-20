@@ -3,7 +3,7 @@
     <string name="add_user">Add User</string>
     <string name="logout">LogOut</string>
     <string name="add_new_product">Add new product</string>
-    <string name="welcome">Welcome..!</string>
+    <string name="welcome">Jay Swaminarayan..!</string>
     <string name="enter_name">Enter name</string>
     <string name="enter_email">Enter email</string>
     <string name="enter_password">Enter password</string>
@@ -16,4 +16,6 @@
     <string name="add_product">Add Product</string>
     <string name="create_bill">Create Bill</string>
     <string name="print_bill">Print Bill</string>
+    <string name="clear_all"><u>Clear Al</u>l</string>
+    <string name="view_all_bill">View All Bill</string>
 </resources>

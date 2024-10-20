@@ -1,96 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginHorizontal="4dp"
-    android:layout_marginVertical="6dp"
-    app:cardCornerRadius="8dp"
-    app:cardElevation="2dp">
+    android:background="@color/white"
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="4">
 
         <TextView
-            android:id="@+id/txtPrice"
-            android:layout_width="match_parent"
+            android:id="@+id/txtProductId"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@color/mainColor"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="0.6"
+            android:ellipsize="end"
             android:gravity="center"
-            android:paddingHorizontal="10dp"
+            android:maxLines="1"
+            android:paddingHorizontal="2dp"
             android:paddingVertical="4dp"
-            android:textColor="@color/white"
-            android:textSize="18sp"
+            android:text="Pr. Id"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+        <TextView
+            android:id="@+id/txtProductName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="1.4"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:text="Item"
+            android:textColor="@color/black"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_gravity="center"
-            android:background="@color/white"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/txtProductName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingHorizontal="10dp"
-                android:text="@string/app_name"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-
-            <TextView
-                android:id="@+id/txtProductid"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="4dp"
-                android:text="@string/app_name"
-                android:textColor="@color/black"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
             android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="1.1"
             android:gravity="center"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/btnPlusAdd"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/mainColor"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_border"
                 android:gravity="center"
-                android:paddingHorizontal="10dp"
+                android:paddingHorizontal="6dp"
                 android:paddingVertical="4dp"
                 android:text=" + "
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:visibility="gone" />
 
 
             <TextView
                 android:id="@+id/txtProductSize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/mainColor"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:focusable="true"
                 android:gravity="center"
-                android:paddingHorizontal="10dp"
+                android:maxLines="1"
+                android:paddingHorizontal="4dp"
                 android:paddingVertical="4dp"
-                android:text=""
-                android:textColor="@color/white"
+                android:text="Qty"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -99,18 +100,41 @@
                 android:id="@+id/btnMinusRemove"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/mainColor"
+                android:background="@drawable/rounded_border"
                 android:gravity="center"
-                android:paddingHorizontal="10dp"
+                android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp"
                 android:text=" - "
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:visibility="gone" />
 
 
         </LinearLayout>
 
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainColor"
+            android:paddingHorizontal="2dp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_weight="0.9"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:text="Amount"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
-</com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

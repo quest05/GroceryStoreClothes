@@ -22,4 +22,16 @@ class MyPreference @Inject constructor(@ApplicationContext context : Context){
     fun getBillNo(): Int {
         return prefs.getInt("BILL_NUMBER", 0)
     }
+    fun setReturnBillNo(query: Int) {
+        prefs.edit().putInt("RETURN_BILL_NUMBER", query).apply()
+    }
+    fun getReturnBillNo(): Int {
+        return prefs.getInt("RETURN_BILL_NUMBER", 0)
+    }
+    fun setLastDate(query: String) {
+        prefs.edit().putString("lastDate", query).apply()
+    }
+    fun getLastDate(): String {
+        return prefs.getString("lastDate", "")!!
+    }
 }

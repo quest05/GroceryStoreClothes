@@ -7,53 +7,139 @@
     android:background="@color/white"
     tools:context=".view.home.MainActivity">
 
-    <TextView
-        android:id="@+id/txtCat"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lineFilters"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="8dp"
-        android:text="Sub category"
-        android:visibility="invisible" />
-    
-    <ImageView
-        android:id="@+id/btnSetting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_setting"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@null"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:clickable="true"
-        android:focusable="true" />
+        android:gravity="end">
 
-    <ImageView
-        android:id="@+id/btnCart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_add_cart"
-        android:layout_toLeftOf="@+id/btnSetting"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@null"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:clickable="true"
-        android:focusable="true" />
+        <TextView
+            android:id="@+id/txtSellProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Return Product  "
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/mainColor"
+            />
 
-    <ImageView
-        android:id="@+id/btnFilterBill"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_filter"
-        android:layout_toLeftOf="@+id/btnCart"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="@null"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:clickable="true"
-        android:focusable="true" />
+        <ImageView
+            android:id="@+id/btnSetting"
+            android:layout_width="25dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_setting_icon"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
 
+        <TextView
+            android:id="@+id/btnTodayReport"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/shopping_cart"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="8dp"
+            android:textSize="16sp"
+            android:text="Today Report"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="@drawable/rounded_filled_border"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btnReturnItem"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/shopping_cart"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="8dp"
+            android:textSize="16sp"
+            android:text="Return"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="@drawable/rounded_filled_border"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btnRePrint"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/shopping_cart"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="8dp"
+            android:textSize="16sp"
+            android:text="Re Print"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="@drawable/rounded_filled_border"
+            android:clickable="true"
+            android:visibility="gone"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/btnAddProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/shopping_cart"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:paddingHorizontal="8dp"
+            android:textSize="16sp"
+            android:text="Add Product"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="@drawable/rounded_filled_border"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/btnCart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/shopping_cart"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/btnFilterBill"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_bill"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_height="0.5dp"
+            android:background="@color/secondary_text"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
 
     <ProgressBar
         android:id="@+id/progressbar"
@@ -62,49 +148,106 @@
         android:layout_centerInParent="true" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerSubCategory"
+        android:id="@+id/recyclerCategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSetting"
+        android:layout_below="@+id/lineFilters"
         android:layout_marginBottom="8dp"
-        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
         android:paddingStart="8dp"
         android:paddingEnd="8dp"
-        tools:listitem="@layout/item_sub_category_layout" />
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        tools:itemCount="1"
+        tools:listitem="@layout/item_category_layout" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerCategory"
+        android:id="@+id/recyclerSubCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/recyclerSubCategory"
+        android:layout_below="@+id/recyclerCategory"
         android:layout_marginStart="8dp"
+        tools:itemCount="2"
         android:layout_marginEnd="4dp"
-        android:orientation="horizontal"
-        tools:listitem="@layout/item_category_layout" />
+        tools:listitem="@layout/item_sub_category_layout" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/lineCartDetail"
         android:layout_below="@+id/recyclerSubCategory"
-        android:layout_toEndOf="@+id/recyclerCategory"
         android:clipToPadding="false"
         android:orientation="horizontal"
-        android:paddingBottom="30dp"
+        android:paddingBottom="40dp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
         tools:listitem="@layout/item_product_layout" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnAddProduct"
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:id="@+id/lineCartDetail"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/mainColor"
-        android:text="@string/add_new_product"
-        android:textColor="@color/white"
-        app:cornerRadius="10dp" />
+        android:background="#EFEFEF"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:id="@+id/txtCartItems"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#D5D5D5"
+            android:layout_marginHorizontal="6dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtClearAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clear_all"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/mainColor"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                />
+
+            <TextView
+                android:id="@+id/txtViewCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Cart"
+                android:backgroundTint="@color/green"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/rounded_filled_border"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
    <!-- <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAddUser"

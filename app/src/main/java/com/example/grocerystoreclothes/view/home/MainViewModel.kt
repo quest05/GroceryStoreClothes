@@ -54,6 +54,27 @@ class MainViewModel @Inject constructor(
         }
     }
 
+    fun returnProduct(product: StoreProduct) {
+
+        val currentList = addCartProduct.value ?: emptyList()
+        val existingProduct = currentList.find { it.Id.oid == product.Id.oid }
+
+        if (existingProduct != null) {
+            val updatedList = currentList.map {
+                if (it.Id.oid == product.Id.oid) {
+                    it.copy(cartCount = it.cartCount?.minus(1))
+                } else {
+                    it
+                }
+            }
+            addCartProduct.value = updatedList
+        } else {
+            val newList = currentList.toMutableList()
+            newList.add(product.copy(cartCount = -1))
+            addCartProduct.value = newList
+        }
+    }
+
 
     fun getDbAllCategory() {
         viewModelScope.launch {

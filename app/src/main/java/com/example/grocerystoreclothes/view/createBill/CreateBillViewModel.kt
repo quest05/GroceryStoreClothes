@@ -19,22 +19,38 @@ class CreateBillViewModel @Inject constructor(
     private val myPreference: MyPreference
 ) : ViewModel() {
 
-    fun saveBillToDatabase(totalPrice: String) {
+    fun saveBillToDatabase(totalPrice: String, isReturnProduct: Boolean) {
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                val currentBillNumber = myPreference.getBillNo()
+                val currentBillNumber =
+                    if (isReturnProduct) myPreference.getReturnBillNo() else myPreference.getBillNo()
                 val nextBillNumber = currentBillNumber + 1
-                myPreference.setBillNo(nextBillNumber)
+                if (isReturnProduct) {
+                    myPreference.setReturnBillNo(nextBillNumber)
 
-                val saveBill = AllSaveBillProduct(billNumber = "B${String.format("%03d", nextBillNumber)}",
+                } else {
+                    myPreference.setBillNo(nextBillNumber)
+                }
+
+                val billNumber = if (isReturnProduct) String.format(
+                    "RE-%04d",
+                    nextBillNumber
+                ) else String.format("%04d", nextBillNumber)
+
+                val saveBill = AllSaveBillProduct(
+                    billNumber = billNumber,
                     billTotalAmount = totalPrice,
                     billDateTime = System.currentTimeMillis(),
-                    billItemList = addCartProduct.value!!)
+                    billItemList = addCartProduct.value!!
+                )
 
 
                 db.storeAllBillDao().insertOneSaveBill(saveBill)
 
-                Log.e("TAG", "saveBillToDatabase: get all bill "+ db.storeAllBillDao().getAllSaveBill())
+                Log.e(
+                    "TAG",
+                    "saveBillToDatabase: get all bill " + db.storeAllBillDao().getAllSaveBill()
+                )
             }
         }
     }
