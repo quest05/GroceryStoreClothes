@@ -6,4 +6,5 @@
     <color name="primary_text">#FF000000</color>
     <color name="secondary_text">#808080</color>
     <color name="green">#118C17</color>
+    <color name="error">#B32525</color>
 </resources>

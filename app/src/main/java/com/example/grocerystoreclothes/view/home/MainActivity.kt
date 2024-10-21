@@ -1,15 +1,24 @@
 package com.example.grocerystoreclothes.view.home
 
+import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.View
+import android.widget.Button
+import android.widget.EditText
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.activity.viewModels
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.grocerystoreclothes.R
 import com.example.grocerystoreclothes.Utilities
 import com.example.grocerystoreclothes.databinding.ActivityMainBinding
 import com.example.grocerystoreclothes.model.entity.StoreProduct
@@ -18,9 +27,11 @@ import com.example.grocerystoreclothes.view.adapter.ProductAdapter
 import com.example.grocerystoreclothes.view.adapter.SubCategoryAdapter
 import com.example.grocerystoreclothes.view.addcart.AddCartActivity
 import com.example.grocerystoreclothes.view.addpProduct.AddProductActivity
+import com.example.grocerystoreclothes.view.createBill.CreateBillActivity
 import com.example.grocerystoreclothes.view.home.MainViewModel.Companion.addCartProduct
 import com.example.grocerystoreclothes.view.setting.SettingActivity
 import com.example.grocerystoreclothes.view.setting.report.TodayReportActivity
+import com.google.android.material.textfield.TextInputLayout
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -42,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         val isReturnProduct = intent.getBooleanExtra("isReturn", false)
-        if (isReturnProduct){
+        if (isReturnProduct) {
             binding.btnReturnItem.visibility = View.GONE
             binding.txtSellProduct.visibility = View.VISIBLE
         }
@@ -175,7 +186,69 @@ class MainActivity : AppCompatActivity() {
             it.context.startActivity(Intent(it.context, TodayReportActivity::class.java).apply {
             })
         }
+
+        binding.btnReprintBill.setOnClickListener {
+            showRePrintDialog(this)
+        }
     }
+
+    private fun showRePrintDialog(context: Context) {
+        val dialogView: View = LayoutInflater.from(context).inflate(R.layout.dialog_reprint, null)
+
+        val dialogBuilder = AlertDialog.Builder(context)
+        dialogBuilder.setView(dialogView)
+
+        val alertDialog = dialogBuilder.create()
+
+        alertDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
+        // Find the dialog views by their ID
+        val inputBillNumber: TextInputLayout = dialogView.findViewById(R.id.inputBillNumber)
+        val edtBillNumber: EditText = dialogView.findViewById(R.id.edtBillNumber)
+        val imgCloseDialog: ImageView = dialogView.findViewById(R.id.imgCloseDialog)
+        val reprintButton: Button = dialogView.findViewById(R.id.buttonReprint)
+
+        // Set actions for buttons
+        imgCloseDialog.setOnClickListener {
+            alertDialog.dismiss() // Close the dialog on cancel
+        }
+
+        edtBillNumber.addTextChangedListener {
+            inputBillNumber.error = null
+        }
+        mainViewModel.reprintBill.value = null
+
+         var isActivityOpened = false
+        reprintButton.setOnClickListener {
+            mainViewModel.getReprintBill(edtBillNumber.text.toString())
+
+            mainViewModel.reprintBill.observe(this) {
+                if (it != null && !isActivityOpened) {
+                    isActivityOpened = true // Set the flag to prevent multiple openings
+                    inputBillNumber.error = null
+                    Log.e(
+                        "TAG",
+                        "showRePrintDialog: billData  ${it.billTotalAmount} ${it.billItemList}"
+                    )
+                    startActivity(
+                        Intent(this, CreateBillActivity::class.java).apply {
+                            putExtra("billObject", it)
+                            putExtra("billNumber", edtBillNumber.text.toString())
+                            putExtra("isReprint", true)
+                        })
+
+                    alertDialog.dismiss()
+                } else {
+                    inputBillNumber.error = "No Bill Found"
+                }
+
+            }
+            Log.e("TAG", "showRePrintDialog: edtBillNumber " + edtBillNumber.text)
+        }
+
+        alertDialog.show()
+    }
+
 
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)

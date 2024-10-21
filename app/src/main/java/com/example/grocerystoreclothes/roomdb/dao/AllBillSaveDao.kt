@@ -24,4 +24,8 @@ interface AllBillSaveDao {
 
     @Query("SELECT * FROM save_bill_table")
     fun getAllSaveBill(): List<AllSaveBillProduct>
+
+    @Query("SELECT * FROM save_bill_table WHERE billNumber = :billNumber")
+    suspend fun getBillByNumber(billNumber: String): AllSaveBillProduct?
+
 }

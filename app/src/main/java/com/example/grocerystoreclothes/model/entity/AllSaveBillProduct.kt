@@ -2,6 +2,7 @@ package com.example.grocerystoreclothes.model.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import java.io.Serializable
 
 @Entity(tableName = "save_bill_table")
 data class AllSaveBillProduct(
@@ -9,4 +10,4 @@ data class AllSaveBillProduct(
     var billDateTime: Long,
     var billTotalAmount: String,
     var billItemList: List<StoreProduct>
-)
+): Serializable

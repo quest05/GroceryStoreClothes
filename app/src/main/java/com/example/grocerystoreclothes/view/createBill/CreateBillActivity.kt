@@ -18,6 +18,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.grocerystoreclothes.R
 import com.example.grocerystoreclothes.databinding.ActivityCreateBillBinding
+import com.example.grocerystoreclothes.model.entity.AllSaveBillProduct
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.view.home.MainViewModel.Companion.addCartProduct
 import dagger.hilt.android.AndroidEntryPoint
@@ -36,6 +37,9 @@ class CreateBillActivity : AppCompatActivity() {
     private var printOutputStream: OutputStream? = null
     private var formattedReceipt: String = ""
     private var isReturnProduct = false
+    private var billObject: AllSaveBillProduct? = null
+    private var billNumber: String? = ""
+    private var isReprint: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,15 +55,25 @@ class CreateBillActivity : AppCompatActivity() {
             insets
         }
         isReturnProduct = intent.getBooleanExtra("isReturn", false)
+        isReprint = intent.getBooleanExtra("isReprint", false)
+        billObject = intent.getSerializableExtra("billObject") as? AllSaveBillProduct
+        billNumber = intent.getStringExtra("billNumber")
 
-        addCartProduct.value?.forEach { product ->
-            totalPrice += product.price?.times(product.cartCount!!) ?: 0
+        Log.e("TAG", "onCreate: $isReprint $billObject  $billNumber"  )
+        if (isReprint) {
+            formattedReceipt = formatReceipt(billObject?.billItemList)
+        } else {
+            addCartProduct.value?.forEach { product ->
+                totalPrice += product.price?.times(product.cartCount!!) ?: 0
+            }
+
+            viewModel.saveBillToDatabase(totalPrice.toString(), isReturnProduct)
+            formattedReceipt = formatReceipt(addCartProduct.value)
         }
 
-        viewModel.saveBillToDatabase(totalPrice.toString(), isReturnProduct)
+
 
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
-        formattedReceipt = formatReceipt(addCartProduct.value)
 
         binding.txtBillPreview.text = formattedReceipt
 
@@ -160,7 +174,9 @@ class CreateBillActivity : AppCompatActivity() {
             stringBuilder.append("| " + (formattedName?.padEnd(18) ?: 0))  // Pad Name to 18 chars
 
             // Format quantity and pad to 8 characters
-            stringBuilder.append("| " + item.cartCount.toString().padStart(8))  // Pad Quantity to 8 chars
+            stringBuilder.append(
+                "| " + item.cartCount.toString().padStart(8)
+            )  // Pad Quantity to 8 chars
 
             // Format price and pad to 14 characters
             val priceQty = item.price?.times(item.cartCount!!)

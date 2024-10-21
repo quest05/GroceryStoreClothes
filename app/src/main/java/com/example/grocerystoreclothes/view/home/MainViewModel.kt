@@ -1,10 +1,12 @@
 package com.example.grocerystoreclothes.view.home
 
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.grocerystoreclothes.model.Products
 import com.example.grocerystoreclothes.model.SubCategory
+import com.example.grocerystoreclothes.model.entity.AllSaveBillProduct
 import com.example.grocerystoreclothes.model.entity.StoreCategory
 import com.example.grocerystoreclothes.model.entity.StoreProduct
 import com.example.grocerystoreclothes.model.entity.StoreSubCategory
@@ -30,6 +32,7 @@ class MainViewModel @Inject constructor(
     companion object {
         val addCartProduct = MutableLiveData<List<StoreProduct>>(emptyList())
     }
+
     fun addToCartProduct(product: StoreProduct) {
         /*val currentList = addCartProduct.value.orEmpty().toMutableList()
         currentList.add(product)
@@ -116,5 +119,20 @@ class MainViewModel @Inject constructor(
         selectedProductList.postValue(matchingList)
 
         return matchingList
+    }
+
+      val reprintBill = MutableLiveData<AllSaveBillProduct?>()
+
+    fun getReprintBill(billNum: String) {
+
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) {
+                val bill = db.storeAllBillDao().getBillByNumber(billNum)
+                if (bill != null) {
+
+                    reprintBill.postValue(bill)
+                }
+            }
+        }
     }
 }

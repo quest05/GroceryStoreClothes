@@ -41,6 +41,22 @@
             android:focusable="true" />
 
         <TextView
+            android:id="@+id/btnReprintBill"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:src="@drawable/shopping_cart"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="8dp"
+            android:textSize="16sp"
+            android:text="Re-Print"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null"
+            android:background="@drawable/rounded_filled_border"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
             android:id="@+id/btnTodayReport"
             android:layout_width="wrap_content"
             android:layout_height="25dp"
@@ -72,22 +88,6 @@
             android:clickable="true"
             android:focusable="true" />
 
-        <TextView
-            android:id="@+id/btnRePrint"
-            android:layout_width="wrap_content"
-            android:layout_height="25dp"
-            android:src="@drawable/shopping_cart"
-            android:layout_marginEnd="8dp"
-            android:textColor="@color/white"
-            android:paddingHorizontal="8dp"
-            android:textSize="16sp"
-            android:text="Re Print"
-            android:layout_marginTop="8dp"
-            android:contentDescription="@null"
-            android:background="@drawable/rounded_filled_border"
-            android:clickable="true"
-            android:visibility="gone"
-            android:focusable="true" />
 
         <TextView
             android:id="@+id/btnAddProduct"
